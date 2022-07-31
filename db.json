@@ -137,8 +137,7 @@
 	],
 	"diaries": [
 		{
-			"id": 0,
-			"session": 1,
+			"id": 1,
 			"realDate": "May 11, 2022",
 			"gameDate": "11th - 16th of Mor, 1341",
 			"entries": [
@@ -157,71 +156,61 @@
 			]
 		},
 		{
-			"id": 1,
-			"session": 2,
+			"id": 2,
 			"realDate": "May 25, 2022",
 			"gameDate": "18th - 21st of Mor",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 2,
-			"session": 3,
+			"id": 3,
 			"realDate": "June 1, 2022",
 			"gameDate": "22nd of Mor",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 3,
-			"session": 4,
+			"id": 4,
 			"realDate": "June 8, 2022",
 			"gameDate": "23rd of Mor",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 4,
-			"session": 5,
+			"id": 5,
 			"realDate": "June 15, 2022",
 			"gameDate": "?",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 5,
-			"session": 6,
+			"id": 6,
 			"realDate": "June 29, 2022",
 			"gameDate": "?",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 6,
-			"session": 7,
+			"id": 7,
 			"realDate": "July 6, 2022",
 			"gameDate": "?",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 7,
-			"session": 8,
+			"id": 8,
 			"realDate": "July 20, 2022",
 			"gameDate": "?",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 8,
-			"session": 9,
+			"id": 9,
 			"realDate": "July 27, 2022",
 			"gameDate": "?",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 9,
-			"session": 10,
+			"id": 10,
 			"realDate": "August 3, 2022",
 			"gameDate": "?",
 			"entries": [{ "date": "", "event": "" }]
 		},
 		{
-			"id": 10,
-			"session": 11,
+			"id": 11,
 			"realDate": "?",
 			"gameDate": "?",
 			"entries": [{ "date": "", "event": "" }]
