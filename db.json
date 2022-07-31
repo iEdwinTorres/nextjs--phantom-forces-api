@@ -137,10 +137,18 @@
 	],
 	"diaries": [
 		{
-			"id": 1
-		},
-		{
-			"id": 2
+			"id": 1,
+			"realDate": "May 11,2022",
+			"gameDate": "11th - 16th of Mor",
+			"events": [
+				"11th",
+				"Drider and Giant Spiders Encounter near Woodshire.",
+				"14th",
+				"Kobold Encounter. The Party noticed they wore largely blue garments with a golden crest depicting a dragon.",
+				"16th",
+				"Arrived at the City of Capital. Met The Mayor, Dodd Avamir. Asked to help “deal with” The Red Scarves.",
+				"Bounty of 50gp per red scarf."
+			]
 		}
 	],
 	"npcs": [
