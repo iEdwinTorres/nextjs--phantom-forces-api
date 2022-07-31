@@ -140,15 +140,61 @@
 			"id": 1,
 			"realDate": "May 11, 2022",
 			"gameDate": "11th - 16th of Mor, 1341",
-			"events": [
-				"11th",
-				"Drider and Giant Spiders Encounter near Woodshire.",
-				"14th",
-				"Kobold Encounter. The Party noticed they wore largely blue garments with a golden crest depicting a dragon.",
-				"16th",
-				"Arrived at the City of Capital. Met The Mayor, Dodd Avamir. Asked to help “deal with” The Red Scarves.",
-				"Bounty of 50gp per red scarf."
-			]
+			"events": "11th\nDrider and Giant Spiders Encounter near ***Woodshire***.\n14th\nKobold Encounter. The Party noticed they wore largely blue garments with a golden crest depicting a dragon.\n16th\nArrived at the ***City of Capital***. Met ***The Mayor, Dodd Avamir***. Asked to help “deal with” ***The Red Scarves***. Bounty of 50gp per red scarf."
+		},
+		{
+			"id": 2,
+			"realDate": "May 25, 2022",
+			"gameDate": "18th - 21st of Mor, 1341",
+			"events": ""
+		},
+		{
+			"id": 3,
+			"realDate": "June 1, 2022",
+			"gameDate": "22nd of Mor, 1341",
+			"events": ""
+		},
+		{
+			"id": 4,
+			"realDate": "June 8, 2022",
+			"gameDate": "11th - 16th of Mor, 1341",
+			"events": ""
+		},
+		{
+			"id": 5,
+			"realDate": "June 15, 2022",
+			"gameDate": "?",
+			"events": ""
+		},
+		{
+			"id": 6,
+			"realDate": "June 29, 2022",
+			"gameDate": "?",
+			"events": ""
+		},
+		{
+			"id": 7,
+			"realDate": "July 6, 2022",
+			"gameDate": "?",
+			"events": ""
+		},
+		{
+			"id": 8,
+			"realDate": "July 20, 2022",
+			"gameDate": "?",
+			"events": ""
+		},
+		{
+			"id": 9,
+			"realDate": "July 27, 2022",
+			"gameDate": "?",
+			"events": ""
+		},
+		{
+			"id": 10,
+			"realDate": "August 3, 2022",
+			"gameDate": "?",
+			"events": ""
 		}
 	],
 	"npcs": [
