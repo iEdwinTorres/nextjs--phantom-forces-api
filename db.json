@@ -141,64 +141,76 @@
 			"realDate": "May 11, 2022",
 			"gameDate": "11th - 16th of Mor, 1341",
 			"entries": [
-				{"id":1, "date":"11th", "event":"Drider and Giant Spiders Encounter near Woodshire."},
-				{"id":2, "date":"14th", "event":"Kobold Encounter. The Party noticed they wore largely blue garments with a golden crest depicting a dragon."},
-				{"id":3, "date":"16th", "event":"Arrived at the City of Capital. Met The Mayor, Dodd Avamir. Asked to help “deal with” The Red Scarves. Bounty of 50gp per red scarf."}
+				{
+					"id": 1,
+					"date": "11th",
+					"event": "Drider and Giant Spiders Encounter near Woodshire."
+				},
+				{
+					"id": 2,
+					"date": "14th",
+					"event": "Kobold Encounter. The Party noticed they wore largely blue garments with a golden crest depicting a dragon."
+				},
+				{
+					"id": 3,
+					"date": "16th",
+					"event": "Arrived at the City of Capital. Met The Mayor, Dodd Avamir. Asked to help “deal with” The Red Scarves. Bounty of 50gp per red scarf."
+				}
 			]
 		},
 		{
 			"id": 2,
 			"realDate": "May 25, 2022",
 			"gameDate": "18th - 21st of Mor",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 3,
 			"realDate": "June 1, 2022",
 			"gameDate": "22nd of Mor",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 4,
 			"realDate": "June 8, 2022",
 			"gameDate": "11th - 16th of Mor",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 5,
 			"realDate": "June 15, 2022",
 			"gameDate": "?",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 6,
 			"realDate": "June 29, 2022",
 			"gameDate": "?",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 7,
 			"realDate": "July 6, 2022",
 			"gameDate": "?",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 8,
 			"realDate": "July 20, 2022",
 			"gameDate": "?",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 9,
 			"realDate": "July 27, 2022",
 			"gameDate": "?",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 10,
 			"realDate": "August 3, 2022",
 			"gameDate": "?",
-			"events": []
+			"events": [{ "id": 0, "date": "", "event": "" }]
 		}
 	],
 	"npcs": [
