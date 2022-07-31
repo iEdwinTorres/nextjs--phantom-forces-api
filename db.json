@@ -162,55 +162,55 @@
 			"id": 2,
 			"realDate": "May 25, 2022",
 			"gameDate": "18th - 21st of Mor",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 3,
 			"realDate": "June 1, 2022",
 			"gameDate": "22nd of Mor",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 4,
 			"realDate": "June 8, 2022",
 			"gameDate": "11th - 16th of Mor",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 5,
 			"realDate": "June 15, 2022",
 			"gameDate": "?",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 6,
 			"realDate": "June 29, 2022",
 			"gameDate": "?",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 7,
 			"realDate": "July 6, 2022",
 			"gameDate": "?",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 8,
 			"realDate": "July 20, 2022",
 			"gameDate": "?",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 9,
 			"realDate": "July 27, 2022",
 			"gameDate": "?",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		},
 		{
 			"id": 10,
 			"realDate": "August 3, 2022",
 			"gameDate": "?",
-			"events": [{ "id": 0, "date": "", "event": "" }]
+			"entries": [{ "id": 0, "date": "", "event": "" }]
 		}
 	],
 	"npcs": [
