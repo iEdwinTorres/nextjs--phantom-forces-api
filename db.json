@@ -1,5 +1,5 @@
 {
-	"users": [
+	"players": [
 		{
 			"id": 1,
 			"player": "Kelsi",
@@ -135,7 +135,23 @@
 			]
 		}
 	],
-	"sessions": [
+	"diaries": [
+		{
+			"id": 1
+		},
+		{
+			"id": 2
+		}
+	],
+	"npcs": [
+		{
+			"id": 1
+		},
+		{
+			"id": 2
+		}
+	],
+	"locations": [
 		{
 			"id": 1
 		},
