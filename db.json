@@ -4,6 +4,7 @@
 			"id": 1,
 			"player": "Kelsi",
 			"character": "Elinor",
+			"portrait": "https://64.media.tumblr.com/23a2639fb2107079f59c03b2672cdca2/tumblr_p8u6b6yxwM1qlfjv8o1_500.jpg",
 			"level": 5,
 			"class": "Druid",
 			"race": "Wood Elf",
@@ -15,124 +16,56 @@
 			"initiative": "+3",
 			"Passive Perception": 16,
 			"abilityScores": [
-				["Strength", "+2", 14],
-				["Dexterity", "+3", 17],
-				["Constitution", "+2", 15],
-				["Intelligence", "+2", 15],
-				["Wisdom", "+4", 19],
-				["Charisma", "+1", 13]
+				{ "strScore": 14, "strMod": "+2" },
+				{ "dexScore": 17, "dexMod": "+3" },
+				{ "conScore": 15, "conMod": "+2" },
+				{ "intScore": 15, "intMod": "+2" },
+				{ "wisScore": 19, "wisMod": "+4" },
+				{ "chaScore": 13, "chaMod": "+1" }
 			],
 			"skills": [
-				["acrobatics", 0, false],
-				["Animal Handling", 0, false],
-				["arcana", 0, false],
-				["deception", 0, false],
-				["history", 0, false],
-				["insight", 0, true],
-				["intimidation", 0, false],
-				["investigation", 0, false],
-				["medicine", 0, true],
-				["nature", 0, false],
-				["perception", 0, true],
-				["performance", 0, false],
-				["persuasion", 0, false],
-				["religion", 0, false],
-				["Sleigh of Hand", 0, false],
-				["Stealth", 0, false],
-				["Survival", 0, true],
-				["Passive Perception", 16]
+				{ "acrobatics": 0, "proficiency": false },
+				{ "animalHandling": 0, "proficiency": false },
+				{ "arcana": 0, "proficiency": false },
+				{ "deception": 0, "proficiency": false },
+				{ "history": 0, "proficiency": false },
+				{ "insight": 0, "proficiency": true },
+				{ "intimidation": 0, "proficiency": false },
+				{ "investigation": 0, "proficiency": false },
+				{ "medicine": 0, "proficiency": true },
+				{ "nature": 0, "proficiency": false },
+				{ "perception": 0, "proficiency": true },
+				{ "performance": 0, "proficiency": false },
+				{ "persuasion": 0, "proficiency": false },
+				{ "religion": 0, "proficiency": false },
+				{ "sleighOfHand": 0, "proficiency": false },
+				{ "stealth": 0, "proficiency": false },
+				{ "survival": 0, "proficiency": true },
+				{ "passivePerception": 16 }
 			],
 			"weapons": [
-				["Long Bow", "+5", "1d8+3", "Peircing"],
-				["Short Sword", "+5", "1d6+3", "Peircing"],
-				["Unarmed Strike", "+4", "3", "Bludgeoning"]
+				{ "weapon": "Long Bow", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
+				{ "weapon": "Short Sword", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
+				{ "weapon": "Unarmed Strike", "toHit": "+4", "dmg": "3", "dmgType": "Bludgeoning" }
 			],
 			"magic": [
-				[
-					"Frostbite",
-					"Level: Cantrip",
-					"Casting Time: 1 Action",
-					"Range/Area: 60ft.",
-					"Components: Verbal (V), Somatic (S)",
-					"Duration: Instantaneous",
-					"Shcool: Evocation",
-					"Attack/Save: CON Save",
-					"Damage/Effect: Cold",
-					"You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
-				]
+				{
+					"spell": "Frostbite",
+					"Level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"atack": "CON Save",
+					"dmgType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
 			]
 		},
 		{
 			"id": 2,
-			"player": "player",
-			"character": "character",
-			"level": 0,
-			"class": "class",
-			"race": "race",
-			"description": "Description",
-			"hitDice": "0d0",
-			"ac": 0,
-			"hp": 0,
-			"speed": 0,
-			"initiative": "+0",
-			"Passive Perception": 0,
-			"abilityScores": [
-				["Strength", "+0", 0],
-				["Dexterity", "+0", 0],
-				["Constitution", "+0", 0],
-				["Intelligence", "+0", 0],
-				["Wisdom", "+0", 0],
-				["Charisma", "+0", 0]
-			],
-			"skills": [
-				["acrobatics", 0, false],
-				["Animal Handling", 0, false],
-				["arcana", 0, false],
-				["deception", 0, false],
-				["history", 0, false],
-				["insight", 0, false],
-				["intimidation", 0, false],
-				["investigation", 0, false],
-				["medicine", 0, false],
-				["nature", 0, false],
-				["perception", 0, false],
-				["performance", 0, false],
-				["persuasion", 0, false],
-				["religion", 0, false],
-				["Sleigh of Hand", 0, false],
-				["Stealth", 0, false],
-				["Survival", 0, false]
-			],
-			"weapons": [
-				["Weapon Name", "ToHit Bonus", "Damage", "Damage Type"],
-				["Weapon Name", "ToHit Bonus", "Damage", "Damage Type"]
-			],
-			"magic": [
-				[
-					"Spell Name",
-					"Level: ???",
-					"Casting Time: ???",
-					"Range/Area: ???ft.",
-					"Components: Verbal (V), Somatic (S), Material (M)",
-					"Duration: ???",
-					"Shcool: ???",
-					"Attack/Save: ???",
-					"Damage/Effect: ???",
-					"Description goes here."
-				],
-				[
-					"Spell Name",
-					"Level: ???",
-					"Casting Time: ???",
-					"Range/Area: ???ft.",
-					"Components: Verbal (V), Somatic (S), Material (M)",
-					"Duration: ???",
-					"Shcool: ???",
-					"Attack/Save: ???",
-					"Damage/Effect: ???",
-					"Description goes here."
-				]
-			]
+			"player": "player"
 		}
 	],
 	"diaries": [
@@ -143,15 +76,15 @@
 			"entries": [
 				{
 					"date": "11th",
-					"event": "The party were urged by a local from the settelment of Woodshire to repel down an old abandoned well. there they encountered several Giant Spiders and a ancient Drider."
+					"event": "The Party were urged by a local from the settelment of Woodshire to repel down an old abandoned well. there they encountered several Giant Spiders and a ancient Drider."
 				},
 				{
 					"date": "14th",
-					"event": "Kobold Encounter. The Party noticed they wore largely blue garments with a golden crest depicting a dragon."
+					"event": "The Party ran into a couple of Kobold search parties. What they where searching for was not made clear. The Party, however, did noticed they wore largely blue garments with a golden crest depicting a dragon."
 				},
 				{
 					"date": "16th",
-					"event": "Arrived at the City of Capital. Met The Mayor, Dodd Avamir. Asked to help “deal with” The Red Scarves. Bounty of 50gp per red scarf."
+					"event": "The Party arrived at the grand City of Capital, the capital city of The Kingdom of Drenai. They also met The Mayor of Capital, Dodd Avamir. He asked the party to help “deal with” The Red Scarves. He offred them a bounty reward of 50gp per Red Scarf slained."
 				}
 			]
 		},
