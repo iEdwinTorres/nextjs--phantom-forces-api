@@ -8,40 +8,131 @@
 			"class": "Druid",
 			"race": "Wood Elf",
 			"description": "N/A",
-			"hit-dice": "3d8",
+			"hitDice": "3d8",
 			"ac": 15,
 			"hp": 24,
 			"speed": 30,
 			"initiative": "+3",
-			"stats": {
-				"strength": ["+2",14],
-				"dexterity": ["+3",17],
-				"constitution": ["+2",15],
-				"intelligence": ["+2",15],
-				"wisdom": ["+4",19],
-				"charisma": ["+1",13],
-				"acrobatics": [0, false],
-				"animal-handling": [0, false],
-				"arcana": [0, false],
-				"athletics": [0, true],
-				"deception": [0, false],
-				"history": [0, false],
-				"insight": [0, true],
-				"intimidation": [0, false],
-				"investigation": [0, false],
-				"medicine": [0, true],
-				"nature": [0, false],
-				"perception": [0, true],
-				"performance": [0, false],
-				"persuasion": [0, false],
-				"religion": [0, false],
-				"sleigh-of-hand": [0, false],
-				"stealth": [0, false],
-				"survival": [0, true],
-				"passive-perception": 16
-			},
-			"weapons": "Long Bow +5 1d8+3 Peircing\nShort Sword +5 1d6+3 Peircing\nUnarmed Strike +4 3 Bludgeoning",
-			"magic": "Frostbite\nLevel: Cantrip\nCasting Time: 1 Action\nRange/Area: 60ft\nComponents: V, S\nDuration: Instantaneous\nSchool: Evocation\nAttack/Save: CON Save\nDamage/Effect: Cold\nYou cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+			"Passive Perception": 16,
+			"abilityScores": [
+				["Strength", "+2", 14],
+				["Dexterity", "+3", 17],
+				["Constitution", "+2", 15],
+				["Intelligence", "+2", 15],
+				["Wisdom", "+4", 19],
+				["Charisma", "+1", 13]
+			],
+			"skills": [
+				["acrobatics", 0, false],
+				["Animal Handling", 0, false],
+				["arcana", 0, false],
+				["deception", 0, false],
+				["history", 0, false],
+				["insight", 0, true],
+				["intimidation", 0, false],
+				["investigation", 0, false],
+				["medicine", 0, true],
+				["nature", 0, false],
+				["perception", 0, true],
+				["performance", 0, false],
+				["persuasion", 0, false],
+				["religion", 0, false],
+				["Sleigh of Hand", 0, false],
+				["Stealth", 0, false],
+				["Survival", 0, true],
+				["Passive Perception", 16]
+			],
+			"weapons": [
+				["Long Bow", "+5", "1d8+3", "Peircing"],
+				["Short Sword", "+5", "1d6+3", "Peircing"],
+				["Unarmed Strike", "+4", "3", "Bludgeoning"]
+			],
+			"magic": [
+				[
+					"Frostbite",
+					"Level: Cantrip",
+					"Casting Time: 1 Action",
+					"Range/Area: 60ft.",
+					"Components: Verbal (V), Somatic (S)",
+					"Duration: Instantaneous",
+					"Shcool: Evocation",
+					"Attack/Save: CON Save",
+					"Damage/Effect: Cold",
+					"You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				]
+			]
+		},
+		{
+			"id": 2,
+			"player": "player",
+			"character": "character",
+			"level": 0,
+			"class": "class",
+			"race": "race",
+			"description": "Description",
+			"hitDice": "0d0",
+			"ac": 0,
+			"hp": 0,
+			"speed": 0,
+			"initiative": "+0",
+			"Passive Perception": 0,
+			"abilityScores": [
+				["Strength", "+0", 0],
+				["Dexterity", "+0", 0],
+				["Constitution", "+0", 0],
+				["Intelligence", "+0", 0],
+				["Wisdom", "+0", 0],
+				["Charisma", "+0", 0]
+			],
+			"skills": [
+				["acrobatics", 0, false],
+				["Animal Handling", 0, false],
+				["arcana", 0, false],
+				["deception", 0, false],
+				["history", 0, false],
+				["insight", 0, false],
+				["intimidation", 0, false],
+				["investigation", 0, false],
+				["medicine", 0, false],
+				["nature", 0, false],
+				["perception", 0, false],
+				["performance", 0, false],
+				["persuasion", 0, false],
+				["religion", 0, false],
+				["Sleigh of Hand", 0, false],
+				["Stealth", 0, false],
+				["Survival", 0, false]
+			],
+			"weapons": [
+				["Weapon Name", "ToHit Bonus", "Damage", "Damage Type"],
+				["Weapon Name", "ToHit Bonus", "Damage", "Damage Type"]
+			],
+			"magic": [
+				[
+					"Spell Name",
+					"Level: ???",
+					"Casting Time: ???",
+					"Range/Area: ???ft.",
+					"Components: Verbal (V), Somatic (S), Material (M)",
+					"Duration: ???",
+					"Shcool: ???",
+					"Attack/Save: ???",
+					"Damage/Effect: ???",
+					"Description goes here."
+				],
+				[
+					"Spell Name",
+					"Level: ???",
+					"Casting Time: ???",
+					"Range/Area: ???ft.",
+					"Components: Verbal (V), Somatic (S), Material (M)",
+					"Duration: ???",
+					"Shcool: ???",
+					"Attack/Save: ???",
+					"Damage/Effect: ???",
+					"Description goes here."
+				]
+			]
 		}
 	]
 }
