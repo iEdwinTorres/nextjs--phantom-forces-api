@@ -22,7 +22,7 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatic", "score": 0, "prof": "•" },
+				{ "name": "Acrobatics", "score": 0, "prof": "•" },
 				{ "name": "Animal Handling", "score": 0, "prof": "" },
 				{ "name": "Arcana", "score": 0, "prof": "" },
 				{ "name": "Deception", "score": 0, "prof": "" },
@@ -98,7 +98,7 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatic", "score": 0, "prof": "•" },
+				{ "name": "Acrobatics", "score": 0, "prof": "•" },
 				{ "name": "Animal Handling", "score": 0, "prof": "" },
 				{ "name": "Arcana", "score": 0, "prof": "" },
 				{ "name": "Deception", "score": 0, "prof": "" },
