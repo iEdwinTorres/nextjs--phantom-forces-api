@@ -27,19 +27,19 @@
 				{ "name": "Arcana", "score": 0, "prof": "•" },
 				{ "name": "Deception", "score": 0, "prof": "•" },
 				{ "name": "History", "score": 0, "prof": "•" },
-				{ "name": "Insight", "score": 0, "prof": "•"},
+				{ "name": "Insight", "score": 0, "prof": "•" },
 				{ "name": "Intimidation", "score": 0, "prof": "•" },
 				{ "name": "Investigation", "score": 0, "prof": "•" },
-				{ "name": "Medicine", "score": 0, "prof": "•"},
+				{ "name": "Medicine", "score": 0, "prof": "•" },
 				{ "name": "Nature", "score": 0, "prof": "•" },
-				{ "name": "Perception", "score": 0, "prof": "•"},
+				{ "name": "Perception", "score": 0, "prof": "•" },
 				{ "name": "Performance", "score": 0, "prof": "•" },
 				{ "name": "Persuasion", "score": 0, "prof": "•" },
 				{ "name": "Religion", "score": 0, "prof": "•" },
 				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
 				{ "name": "Stealth", "score": 0, "prof": "•" },
-				{ "name": "Survival", "score": 0, "prof": "•"},
-				{ "name": "Passive Perception", "score": 16, "prof": "•"}
+				{ "name": "Survival", "score": 0, "prof": "•" },
+				{ "name": "Passive Perception", "score": 16, "prof": "•" }
 			],
 			"weapons": [
 				{
@@ -88,7 +88,7 @@
 			"ac": 15,
 			"hp": 24,
 			"speed": 30,
-			"initiative": "+3"
+			"initiative": "+3",
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
 				{ "name": "Dexterity", "score": 17, "mod": "+3" },
@@ -103,19 +103,19 @@
 				{ "name": "Arcana", "score": 0, "prof": "•" },
 				{ "name": "Deception", "score": 0, "prof": "•" },
 				{ "name": "History", "score": 0, "prof": "•" },
-				{ "name": "Insight", "score": 0, "prof": "•"},
+				{ "name": "Insight", "score": 0, "prof": "•" },
 				{ "name": "Intimidation", "score": 0, "prof": "•" },
 				{ "name": "Investigation", "score": 0, "prof": "•" },
-				{ "name": "Medicine", "score": 0, "prof": "•"},
+				{ "name": "Medicine", "score": 0, "prof": "•" },
 				{ "name": "Nature", "score": 0, "prof": "•" },
-				{ "name": "Perception", "score": 0, "prof": "•"},
+				{ "name": "Perception", "score": 0, "prof": "•" },
 				{ "name": "Performance", "score": 0, "prof": "•" },
 				{ "name": "Persuasion", "score": 0, "prof": "•" },
 				{ "name": "Religion", "score": 0, "prof": "•" },
 				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
 				{ "name": "Stealth", "score": 0, "prof": "•" },
-				{ "name": "Survival", "score": 0, "prof": "•"},
-				{ "name": "Passive Perception", "score": 16, "prof": "•"}
+				{ "name": "Survival", "score": 0, "prof": "•" },
+				{ "name": "Passive Perception", "score": 16, "prof": "•" }
 			],
 			"weapons": [
 				{
