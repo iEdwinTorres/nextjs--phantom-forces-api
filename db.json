@@ -13,69 +13,6 @@
 			"hp": 24,
 			"speed": 30,
 			"initiative": "+3",
-			"Passive Perception": 16,
-			"abilityScores": [
-				{ "strScore": 14, "strMod": "(+2)" },
-				{ "dexScore": 17, "dexMod": "(+3)" },
-				{ "conScore": 15, "conMod": "(+2)" },
-				{ "intScore": 15, "intMod": "(+2)" },
-				{ "wisScore": 19, "wisMod": "(+4)" },
-				{ "chaScore": 13, "chaMod": "(+1)" }
-			],
-			"skills": [
-				{ "acrobatics": 0, "proficiency": false },
-				{ "animalHandling": 0, "proficiency": false },
-				{ "arcana": 0, "proficiency": false },
-				{ "deception": 0, "proficiency": false },
-				{ "history": 0, "proficiency": false },
-				{ "insight": 0, "proficiency": true },
-				{ "intimidation": 0, "proficiency": false },
-				{ "investigation": 0, "proficiency": false },
-				{ "medicine": 0, "proficiency": true },
-				{ "nature": 0, "proficiency": false },
-				{ "perception": 0, "proficiency": true },
-				{ "performance": 0, "proficiency": false },
-				{ "persuasion": 0, "proficiency": false },
-				{ "religion": 0, "proficiency": false },
-				{ "sleighOfHand": 0, "proficiency": false },
-				{ "stealth": 0, "proficiency": false },
-				{ "survival": 0, "proficiency": true },
-				{ "passivePerception": 16 }
-			],
-			"weapons": [
-				{ "weapon": "Long Bow", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
-				{ "weapon": "Short Sword", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
-				{ "weapon": "Unarmed Strike", "toHit": "+4", "dmg": "3", "dmgType": "Bludgeoning" }
-			],
-			"magic": [
-				{
-					"spell": "Frostbite",
-					"Level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"atack": "CON Save",
-					"dmgType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
-				}
-			]
-		},
-		{
-			"id": "Snowflake",
-			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
-			"level": 5,
-			"class": "Druid",
-			"race": "Wood Elf",
-			"description": "N/A",
-			"hitDice": "3d8",
-			"ac": 15,
-			"hp": 24,
-			"speed": 30,
-			"initiative": "+3",
-			"Passive Perception": 16,
 			"abilityScores": [
 				{ "name":"Stregth", "score": 14, "mod": "(+2)" },
 				{ "name":"Dexterity", "score": 17, "mod": "(+3)" },
@@ -111,16 +48,77 @@
 			],
 			"magic": [
 				{
-					"spell": "Frostbite",
-					"Level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"atack": "CON Save",
-					"dmgType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+					"name": "Spell: Frostbite",
+					"Level": "Level: Cantrip",
+					"casting": "Casting Time: 1 Action",
+					"range": "Range/Area: 60 ft.",
+					"components": "Components: Verbal (V), Somatic (S)",
+					"duration": "Duration: Instantaneous",
+					"school": "School: Evocation",
+					"attack": "Attak/Save: ON Save",
+					"dmgType": "Damage Type: Cold",
+					"description": "Description: You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
+			]
+		},
+		{
+			"id": "Snowflake",
+			"player": "Lily",
+			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 30,
+			"initiative": "+3",
+			"abilityScores": [
+				{ "name":"Stregth", "score": 14, "mod": "(+2)" },
+				{ "name":"Dexterity", "score": 17, "mod": "(+3)" },
+				{ "name":"Constitution", "score": 15, "mod": "(+2)" },
+				{ "name":"Intelligence", "score": 15, "mod": "(+2)" },
+				{ "name":"Wisdom", "score": 19, "mod": "(+4)" },
+				{ "name":"Charisma", "score": 13, "mod": "(+1)" }
+			],
+			"skills": [
+				{ "name":"Acrobatic", "score": 0, "proficiency": false },
+				{ "name":"Animal Handling", "score": 0, "proficiency": false },
+				{ "name":"Arcana", "score": 0, "proficiency": false },
+				{ "name":"Deception", "score": 0, "proficiency": false },
+				{ "name":"History", "score": 0, "proficiency": false },
+				{ "name":"Insight", "score": 0, "proficiency": true },
+				{ "name":"Intimidation", "score": 0, "proficiency": false },
+				{ "name":"Investigation", "score": 0, "proficiency": false },
+				{ "name":"Medicine", "score": 0, "proficiency": true },
+				{ "name":"Nature", "score": 0, "proficiency": false },
+				{ "name":"Perception", "score": 0, "proficiency": true },
+				{ "name":"Performance", "score": 0, "proficiency": false },
+				{ "name":"Persuasion", "score": 0, "proficiency": false },
+				{ "name":"Religion", "score": 0, "proficiency": false },
+				{ "name":"Sleight of Hand", "score": 0, "proficiency": false },
+				{ "name":"Stealth", "score": 0, "proficiency": false },
+				{ "name":"Survival", "score": 0, "proficiency": true },
+				{ "name":"Passive Perception", "score": 16, "proficiency": true }
+			],
+			"weapons": [
+				{ "name": "Long Bow", "toHit": "To Hit: +5", "dmg": "Damage: 1d8+3", "dmgType": "Damage Type: Peircing" },
+				{ "name": "Short Sword", "toHit": "To Hit: +5", "dmg": "Damage: 1d8+3", "dmgType": "Damage Type: Peircing" },
+				{ "name": "Unarmed Strike", "toHit": "To Hit: +4", "dmg": "Damage: 3", "dmgType": "Damage Type: Bludgeoning" }
+			],
+			"magic": [
+				{
+					"name": "Spell: Frostbite",
+					"Level": "Level: Cantrip",
+					"casting": "Casting Time: 1 Action",
+					"range": "Range/Area: 60 ft.",
+					"components": "Components: Verbal (V), Somatic (S)",
+					"duration": "Duration: Instantaneous",
+					"school": "School: Evocation",
+					"attack": "Attak/Save: ON Save",
+					"dmgType": "Damage Type: Cold",
+					"description": "Description: You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
 		}
