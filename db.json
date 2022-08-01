@@ -23,56 +23,56 @@
 			],
 			"skills": [
 				{ "name": "Acrobatics", "score": 0, "prof": "•" },
-				{ "name": "Animal Handling", "score": 0, "prof": "" },
-				{ "name": "Arcana", "score": 0, "prof": "" },
-				{ "name": "Deception", "score": 0, "prof": "" },
-				{ "name": "History", "score": 0, "prof": "" },
-				{ "name": "Insight", "score": 0, "prof": ""},
-				{ "name": "Intimidation", "score": 0, "prof": "" },
-				{ "name": "Investigation", "score": 0, "prof": "" },
-				{ "name": "Medicine", "score": 0, "prof": ""},
-				{ "name": "Nature", "score": 0, "prof": "" },
-				{ "name": "Perception", "score": 0, "prof": ""},
-				{ "name": "Performance", "score": 0, "prof": "" },
-				{ "name": "Persuasion", "score": 0, "prof": "" },
-				{ "name": "Religion", "score": 0, "prof": "" },
-				{ "name": "Sleight of Hand", "score": 0, "prof": "" },
-				{ "name": "Stealth", "score": 0, "prof": "" },
-				{ "name": "Survival", "score": 0, "prof": ""},
-				{ "name": "Passive Perception", "score": 16, "prof": ""}
+				{ "name": "Animal Handling", "score": 0, "prof": "•" },
+				{ "name": "Arcana", "score": 0, "prof": "•" },
+				{ "name": "Deception", "score": 0, "prof": "•" },
+				{ "name": "History", "score": 0, "prof": "•" },
+				{ "name": "Insight", "score": 0, "prof": "•"},
+				{ "name": "Intimidation", "score": 0, "prof": "•" },
+				{ "name": "Investigation", "score": 0, "prof": "•" },
+				{ "name": "Medicine", "score": 0, "prof": "•"},
+				{ "name": "Nature", "score": 0, "prof": "•" },
+				{ "name": "Perception", "score": 0, "prof": "•"},
+				{ "name": "Performance", "score": 0, "prof": "•" },
+				{ "name": "Persuasion", "score": 0, "prof": "•" },
+				{ "name": "Religion", "score": 0, "prof": "•" },
+				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
+				{ "name": "Stealth", "score": 0, "prof": "•" },
+				{ "name": "Survival", "score": 0, "prof": "•"},
+				{ "name": "Passive Perception", "score": 16, "prof": "•"}
 			],
 			"weapons": [
 				{
 					"name": "Long Bow",
-					"toHit": "To Hit: +5",
-					"dmg": "Damage: 1d8+3",
-					"dmgType": "Damage Type: Peircing"
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
 					"name": "Short Sword",
-					"toHit": "To Hit: +5",
-					"dmg": "Damage: 1d8+3",
-					"dmgType": "Damage Type: Peircing"
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
 					"name": "Unarmed Strike",
-					"toHit": "To Hit: +4",
-					"dmg": "Damage: 3",
-					"dmgType": "Damage Type: Bludgeoning"
+					"toHit": "+4",
+					"dmg": "3",
+					"dmgType": "Bludgeoning"
 				}
 			],
 			"magic": [
 				{
 					"name": "Frostbite",
 					"level": "Cantrip",
-					"casting": "Casting Time: 1 Action",
-					"range": "Range/Area: 60 ft.",
-					"components": "Components: Verbal (V), Somatic (S)",
-					"duration": "Duration: Instantaneous",
-					"school": "School: Evocation",
-					"attack": "Attack/Save: ON Save",
-					"dmgType": "Damage Type: Cold",
-					"description": "Description: You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"dmgType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
 		},
@@ -88,7 +88,7 @@
 			"ac": 15,
 			"hp": 24,
 			"speed": 30,
-			"initiative": "+3",
+			"initiative": "+3"
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
 				{ "name": "Dexterity", "score": 17, "mod": "+3" },
@@ -99,56 +99,56 @@
 			],
 			"skills": [
 				{ "name": "Acrobatics", "score": 0, "prof": "•" },
-				{ "name": "Animal Handling", "score": 0, "prof": "" },
-				{ "name": "Arcana", "score": 0, "prof": "" },
-				{ "name": "Deception", "score": 0, "prof": "" },
-				{ "name": "History", "score": 0, "prof": "" },
-				{ "name": "Insight", "score": 0, "prof": ""},
-				{ "name": "Intimidation", "score": 0, "prof": "" },
-				{ "name": "Investigation", "score": 0, "prof": "" },
-				{ "name": "Medicine", "score": 0, "prof": ""},
-				{ "name": "Nature", "score": 0, "prof": "" },
-				{ "name": "Perception", "score": 0, "prof": ""},
-				{ "name": "Performance", "score": 0, "prof": "" },
-				{ "name": "Persuasion", "score": 0, "prof": "" },
-				{ "name": "Religion", "score": 0, "prof": "" },
-				{ "name": "Sleight of Hand", "score": 0, "prof": "" },
-				{ "name": "Stealth", "score": 0, "prof": "" },
-				{ "name": "Survival", "score": 0, "prof": ""},
-				{ "name": "Passive Perception", "score": 16, "prof": ""}
+				{ "name": "Animal Handling", "score": 0, "prof": "•" },
+				{ "name": "Arcana", "score": 0, "prof": "•" },
+				{ "name": "Deception", "score": 0, "prof": "•" },
+				{ "name": "History", "score": 0, "prof": "•" },
+				{ "name": "Insight", "score": 0, "prof": "•"},
+				{ "name": "Intimidation", "score": 0, "prof": "•" },
+				{ "name": "Investigation", "score": 0, "prof": "•" },
+				{ "name": "Medicine", "score": 0, "prof": "•"},
+				{ "name": "Nature", "score": 0, "prof": "•" },
+				{ "name": "Perception", "score": 0, "prof": "•"},
+				{ "name": "Performance", "score": 0, "prof": "•" },
+				{ "name": "Persuasion", "score": 0, "prof": "•" },
+				{ "name": "Religion", "score": 0, "prof": "•" },
+				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
+				{ "name": "Stealth", "score": 0, "prof": "•" },
+				{ "name": "Survival", "score": 0, "prof": "•"},
+				{ "name": "Passive Perception", "score": 16, "prof": "•"}
 			],
 			"weapons": [
 				{
 					"name": "Long Bow",
-					"toHit": "To Hit: +5",
-					"dmg": "Damage: 1d8+3",
-					"dmgType": "Damage Type: Peircing"
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
 					"name": "Short Sword",
-					"toHit": "To Hit: +5",
-					"dmg": "Damage: 1d8+3",
-					"dmgType": "Damage Type: Peircing"
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
 					"name": "Unarmed Strike",
-					"toHit": "To Hit: +4",
-					"dmg": "Damage: 3",
-					"dmgType": "Damage Type: Bludgeoning"
+					"toHit": "+4",
+					"dmg": "3",
+					"dmgType": "Bludgeoning"
 				}
 			],
 			"magic": [
 				{
 					"name": "Frostbite",
 					"level": "Cantrip",
-					"casting": "Casting Time: 1 Action",
-					"range": "Range/Area: 60 ft.",
-					"components": "Components: Verbal (V), Somatic (S)",
-					"duration": "Duration: Instantaneous",
-					"school": "School: Evocation",
-					"attack": "Attack/Save: ON Save",
-					"dmgType": "Damage Type: Cold",
-					"description": "Description: You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"dmgType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
 		}
