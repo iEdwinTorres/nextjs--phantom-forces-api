@@ -14,37 +14,52 @@
 			"speed": 30,
 			"initiative": "+3",
 			"abilityScores": [
-				{ "name":"Stregth", "score": 14, "mod": "(+2)" },
-				{ "name":"Dexterity", "score": 17, "mod": "(+3)" },
-				{ "name":"Constitution", "score": 15, "mod": "(+2)" },
-				{ "name":"Intelligence", "score": 15, "mod": "(+2)" },
-				{ "name":"Wisdom", "score": 19, "mod": "(+4)" },
-				{ "name":"Charisma", "score": 13, "mod": "(+1)" }
+				{ "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name":"Acrobatic", "score": 0, "proficiency": false },
-				{ "name":"Animal Handling", "score": 0, "proficiency": false },
-				{ "name":"Arcana", "score": 0, "proficiency": false },
-				{ "name":"Deception", "score": 0, "proficiency": false },
-				{ "name":"History", "score": 0, "proficiency": false },
-				{ "name":"Insight", "score": 0, "proficiency": true },
-				{ "name":"Intimidation", "score": 0, "proficiency": false },
-				{ "name":"Investigation", "score": 0, "proficiency": false },
-				{ "name":"Medicine", "score": 0, "proficiency": true },
-				{ "name":"Nature", "score": 0, "proficiency": false },
-				{ "name":"Perception", "score": 0, "proficiency": true },
-				{ "name":"Performance", "score": 0, "proficiency": false },
-				{ "name":"Persuasion", "score": 0, "proficiency": false },
-				{ "name":"Religion", "score": 0, "proficiency": false },
-				{ "name":"Sleight of Hand", "score": 0, "proficiency": false },
-				{ "name":"Stealth", "score": 0, "proficiency": false },
-				{ "name":"Survival", "score": 0, "proficiency": true },
-				{ "name":"Passive Perception", "score": 16, "proficiency": true }
+				{ "name": "Acrobatic", "score": 0, "proficiency": false },
+				{ "name": "Animal Handling", "score": 0, "proficiency": false },
+				{ "name": "Arcana", "score": 0, "proficiency": false },
+				{ "name": "Deception", "score": 0, "proficiency": false },
+				{ "name": "History", "score": 0, "proficiency": false },
+				{ "name": "Insight", "score": 0, "proficiency": true },
+				{ "name": "Intimidation", "score": 0, "proficiency": false },
+				{ "name": "Investigation", "score": 0, "proficiency": false },
+				{ "name": "Medicine", "score": 0, "proficiency": true },
+				{ "name": "Nature", "score": 0, "proficiency": false },
+				{ "name": "Perception", "score": 0, "proficiency": true },
+				{ "name": "Performance", "score": 0, "proficiency": false },
+				{ "name": "Persuasion", "score": 0, "proficiency": false },
+				{ "name": "Religion", "score": 0, "proficiency": false },
+				{ "name": "Sleight of Hand", "score": 0, "proficiency": false },
+				{ "name": "Stealth", "score": 0, "proficiency": false },
+				{ "name": "Survival", "score": 0, "proficiency": true },
+				{ "name": "Passive Perception", "score": 16, "proficiency": true }
 			],
 			"weapons": [
-				{ "name": "Long Bow", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
-				{ "name": "Short Sword", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
-				{ "name": "Unarmed Strike", "toHit": "+4", "dmg": "3", "dmgType": "Bludgeoning" }
+				{
+					"name": "Long Bow",
+					"toHit": "To Hit: +5",
+					"dmg": "Damage: 1d8+3",
+					"dmgType": "Damage Type: Peircing"
+				},
+				{
+					"name": "Short Sword",
+					"toHit": "To Hit: +5",
+					"dmg": "Damage: 1d8+3",
+					"dmgType": "Damage Type: Peircing"
+				},
+				{
+					"name": "Unarmed Strike",
+					"toHit": "To Hit: +4",
+					"dmg": "Damage: 3",
+					"dmgType": "Damage Type: Bludgeoning"
+				}
 			],
 			"magic": [
 				{
@@ -75,37 +90,52 @@
 			"speed": 30,
 			"initiative": "+3",
 			"abilityScores": [
-				{ "name":"Stregth", "score": 14, "mod": "(+2)" },
-				{ "name":"Dexterity", "score": 17, "mod": "(+3)" },
-				{ "name":"Constitution", "score": 15, "mod": "(+2)" },
-				{ "name":"Intelligence", "score": 15, "mod": "(+2)" },
-				{ "name":"Wisdom", "score": 19, "mod": "(+4)" },
-				{ "name":"Charisma", "score": 13, "mod": "(+1)" }
+				{ "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name":"Acrobatic", "score": 0, "proficiency": false },
-				{ "name":"Animal Handling", "score": 0, "proficiency": false },
-				{ "name":"Arcana", "score": 0, "proficiency": false },
-				{ "name":"Deception", "score": 0, "proficiency": false },
-				{ "name":"History", "score": 0, "proficiency": false },
-				{ "name":"Insight", "score": 0, "proficiency": true },
-				{ "name":"Intimidation", "score": 0, "proficiency": false },
-				{ "name":"Investigation", "score": 0, "proficiency": false },
-				{ "name":"Medicine", "score": 0, "proficiency": true },
-				{ "name":"Nature", "score": 0, "proficiency": false },
-				{ "name":"Perception", "score": 0, "proficiency": true },
-				{ "name":"Performance", "score": 0, "proficiency": false },
-				{ "name":"Persuasion", "score": 0, "proficiency": false },
-				{ "name":"Religion", "score": 0, "proficiency": false },
-				{ "name":"Sleight of Hand", "score": 0, "proficiency": false },
-				{ "name":"Stealth", "score": 0, "proficiency": false },
-				{ "name":"Survival", "score": 0, "proficiency": true },
-				{ "name":"Passive Perception", "score": 16, "proficiency": true }
+				{ "name": "Acrobatic", "score": 0, "proficiency": false },
+				{ "name": "Animal Handling", "score": 0, "proficiency": false },
+				{ "name": "Arcana", "score": 0, "proficiency": false },
+				{ "name": "Deception", "score": 0, "proficiency": false },
+				{ "name": "History", "score": 0, "proficiency": false },
+				{ "name": "Insight", "score": 0, "proficiency": true },
+				{ "name": "Intimidation", "score": 0, "proficiency": false },
+				{ "name": "Investigation", "score": 0, "proficiency": false },
+				{ "name": "Medicine", "score": 0, "proficiency": true },
+				{ "name": "Nature", "score": 0, "proficiency": false },
+				{ "name": "Perception", "score": 0, "proficiency": true },
+				{ "name": "Performance", "score": 0, "proficiency": false },
+				{ "name": "Persuasion", "score": 0, "proficiency": false },
+				{ "name": "Religion", "score": 0, "proficiency": false },
+				{ "name": "Sleight of Hand", "score": 0, "proficiency": false },
+				{ "name": "Stealth", "score": 0, "proficiency": false },
+				{ "name": "Survival", "score": 0, "proficiency": true },
+				{ "name": "Passive Perception", "score": 16, "proficiency": true }
 			],
 			"weapons": [
-				{ "name": "Long Bow", "toHit": "To Hit: +5", "dmg": "Damage: 1d8+3", "dmgType": "Damage Type: Peircing" },
-				{ "name": "Short Sword", "toHit": "To Hit: +5", "dmg": "Damage: 1d8+3", "dmgType": "Damage Type: Peircing" },
-				{ "name": "Unarmed Strike", "toHit": "To Hit: +4", "dmg": "Damage: 3", "dmgType": "Damage Type: Bludgeoning" }
+				{
+					"name": "Long Bow",
+					"toHit": "To Hit: +5",
+					"dmg": "Damage: 1d8+3",
+					"dmgType": "Damage Type: Peircing"
+				},
+				{
+					"name": "Short Sword",
+					"toHit": "To Hit: +5",
+					"dmg": "Damage: 1d8+3",
+					"dmgType": "Damage Type: Peircing"
+				},
+				{
+					"name": "Unarmed Strike",
+					"toHit": "To Hit: +4",
+					"dmg": "Damage: 3",
+					"dmgType": "Damage Type: Bludgeoning"
+				}
 			],
 			"magic": [
 				{
