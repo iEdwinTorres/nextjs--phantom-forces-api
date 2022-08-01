@@ -105,9 +105,9 @@
 				{ "name":"Passive Perception", "score": 16, "proficiency": true }
 			],
 			"weapons": [
-				{ "weapon": "Long Bow", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
-				{ "weapon": "Short Sword", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
-				{ "weapon": "Unarmed Strike", "toHit": "+4", "dmg": "3", "dmgType": "Bludgeoning" }
+				{ "name": "Long Bow", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
+				{ "name": "Short Sword", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
+				{ "name": "Unarmed Strike", "toHit": "+4", "dmg": "3", "dmgType": "Bludgeoning" }
 			],
 			"magic": [
 				{
