@@ -102,7 +102,7 @@
 				{ "sleighOfHand": 0, "sleighOfHandPro": false },
 				{ "stealth": 0, "stealthPro": false },
 				{ "survival": 0, "survivalPro": true },
-				{ "passivePerception": 16 }
+				{ "passivePerception": 16, "passivePerceptionPro": true }
 			],
 			"weapons": [
 				{ "weapon": "Long Bow", "toHit": "+5", "dmg": "1d8+3", "dmgType": "Peircing" },
