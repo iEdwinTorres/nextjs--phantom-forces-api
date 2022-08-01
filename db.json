@@ -15,12 +15,12 @@
 			"initiative": "+3",
 			"Passive Perception": 16,
 			"abilityScores": [
-				{ "strScore": 14, "strMod": "+2" },
-				{ "dexScore": 17, "dexMod": "+3" },
-				{ "conScore": 15, "conMod": "+2" },
-				{ "intScore": 15, "intMod": "+2" },
-				{ "wisScore": 19, "wisMod": "+4" },
-				{ "chaScore": 13, "chaMod": "+1" }
+				{ "strScore": 14, "strMod": "(+2)" },
+				{ "dexScore": 17, "dexMod": "(+3)" },
+				{ "conScore": 15, "conMod": "(+2)" },
+				{ "intScore": 15, "intMod": "(+2)" },
+				{ "wisScore": 19, "wisMod": "(+4)" },
+				{ "chaScore": 13, "chaMod": "(+1)" }
 			],
 			"skills": [
 				{ "acrobatics": 0, "proficiency": false },
@@ -77,12 +77,12 @@
 			"initiative": "+3",
 			"Passive Perception": 16,
 			"abilityScores": [
-				{ "strScore": 14, "strMod": "+2" },
-				{ "dexScore": 17, "dexMod": "+3" },
-				{ "conScore": 15, "conMod": "+2" },
-				{ "intScore": 15, "intMod": "+2" },
-				{ "wisScore": 19, "wisMod": "+4" },
-				{ "chaScore": 13, "chaMod": "+1" }
+				{ "strScore": 14, "strMod": "(+2)" },
+				{ "dexScore": 17, "dexMod": "(+3)" },
+				{ "conScore": 15, "conMod": "(+2)" },
+				{ "intScore": 15, "intMod": "(+2)" },
+				{ "wisScore": 19, "wisMod": "(+4)" },
+				{ "chaScore": 13, "chaMod": "(+1)" }
 			],
 			"skills": [
 				{ "acrobatics": 0, "proficiency": false },
