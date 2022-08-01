@@ -63,8 +63,8 @@
 			],
 			"magic": [
 				{
-					"name": "Spell: Frostbite",
-					"level": "Level: Cantrip",
+					"name": "Frostbite",
+					"level": "Cantrip",
 					"casting": "Casting Time: 1 Action",
 					"range": "Range/Area: 60 ft.",
 					"components": "Components: Verbal (V), Somatic (S)",
@@ -139,8 +139,8 @@
 			],
 			"magic": [
 				{
-					"name": "Spell: Frostbite",
-					"level": "Level: Cantrip",
+					"name": "Frostbite",
+					"level": "Cantrip",
 					"casting": "Casting Time: 1 Action",
 					"range": "Range/Area: 60 ft.",
 					"components": "Components: Verbal (V), Somatic (S)",
