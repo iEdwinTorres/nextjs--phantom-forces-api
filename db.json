@@ -151,111 +151,310 @@
 					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
-		}
-	],
-	"diaries": [
+		},
 		{
-			"id": 1,
-			"realDate": "May 11, 2022",
-			"gameDate": "11th - 16th of Mor, 1341",
-			"author": "Dungeon Master",
-			"entries": [
+			"id": "Snowflake",
+			"player": "Lily",
+			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 30,
+			"initiative": "+3",
+			"abilityScores": [
+				{ "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "name": "Charisma", "score": 13, "mod": "+1" }
+			],
+			"skills": [
+				{ "name": "Acrobatics", "score": 0, "prof": "•" },
+				{ "name": "Animal Handling", "score": 0, "prof": "•" },
+				{ "name": "Arcana", "score": 0, "prof": "•" },
+				{ "name": "Deception", "score": 0, "prof": "•" },
+				{ "name": "History", "score": 0, "prof": "•" },
+				{ "name": "Insight", "score": 0, "prof": "•" },
+				{ "name": "Intimidation", "score": 0, "prof": "•" },
+				{ "name": "Investigation", "score": 0, "prof": "•" },
+				{ "name": "Medicine", "score": 0, "prof": "•" },
+				{ "name": "Nature", "score": 0, "prof": "•" },
+				{ "name": "Perception", "score": 0, "prof": "•" },
+				{ "name": "Performance", "score": 0, "prof": "•" },
+				{ "name": "Persuasion", "score": 0, "prof": "•" },
+				{ "name": "Religion", "score": 0, "prof": "•" },
+				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
+				{ "name": "Stealth", "score": 0, "prof": "•" },
+				{ "name": "Survival", "score": 0, "prof": "•" },
+				{ "name": "Passive Perception", "score": 16, "prof": "•" }
+			],
+			"weapons": [
 				{
-					"date": "11th",
-					"event": "The Party were urged by a local from the settelment of Woodshire to repel down an old abandoned well. there they encountered several Giant Spiders and a ancient Drider."
+					"name": "Long Bow",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
-					"date": "14th",
-					"event": "The Party ran into a couple of Kobold search parties. What they where searching for was not made clear. The Party, however, did noticed they wore largely blue garments with a golden crest depicting a dragon."
+					"name": "Short Sword",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
-					"date": "16th",
-					"event": "The Party arrived at the grand City of Capital, the capital city of The Kingdom of Drenai. They also met The Mayor of Capital, Dodd Avamir. He asked the party to help “deal with” The Red Scarves. He offred them a bounty reward of 50gp per Red Scarf slained."
+					"name": "Unarmed Strike",
+					"toHit": "+4",
+					"dmg": "3",
+					"dmgType": "Bludgeoning"
+				}
+			],
+			"magic": [
+				{
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"dmgType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
 		},
 		{
-			"id": 2,
-			"realDate": "May 25, 2022",
-			"gameDate": "18th - 21st of Mor",
-			"author": "Dungeon Master",
-			"entries": [
+			"id": "Snowflake",
+			"player": "Lily",
+			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 30,
+			"initiative": "+3",
+			"abilityScores": [
+				{ "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "name": "Charisma", "score": 13, "mod": "+1" }
+			],
+			"skills": [
+				{ "name": "Acrobatics", "score": 0, "prof": "•" },
+				{ "name": "Animal Handling", "score": 0, "prof": "•" },
+				{ "name": "Arcana", "score": 0, "prof": "•" },
+				{ "name": "Deception", "score": 0, "prof": "•" },
+				{ "name": "History", "score": 0, "prof": "•" },
+				{ "name": "Insight", "score": 0, "prof": "•" },
+				{ "name": "Intimidation", "score": 0, "prof": "•" },
+				{ "name": "Investigation", "score": 0, "prof": "•" },
+				{ "name": "Medicine", "score": 0, "prof": "•" },
+				{ "name": "Nature", "score": 0, "prof": "•" },
+				{ "name": "Perception", "score": 0, "prof": "•" },
+				{ "name": "Performance", "score": 0, "prof": "•" },
+				{ "name": "Persuasion", "score": 0, "prof": "•" },
+				{ "name": "Religion", "score": 0, "prof": "•" },
+				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
+				{ "name": "Stealth", "score": 0, "prof": "•" },
+				{ "name": "Survival", "score": 0, "prof": "•" },
+				{ "name": "Passive Perception", "score": 16, "prof": "•" }
+			],
+			"weapons": [
 				{
-					"date": "18th",
-					"event": "The Party met Aysum and Snowflake after their escape from captivity from The Red Scarves. Aysum had been held captive for years, while Snowflake had only been there a handful of weeks."
+					"name": "Long Bow",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
-					"date": "19th",
-					"event": "The Party, including their two new comrades, fought two Red Scarves search parties. The search parties included two notable Red Scarves recognized by Aysum: Captain Kreel and Tipps both of whom were killed in action."
+					"name": "Short Sword",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
 				},
 				{
-					"date": "21st",
-					"event": "Zagol attempted to get hired by a local blacksmith, Foreman Nevek Dunhall, though he said he had no work for him at the moment, given his small stature."
+					"name": "Unarmed Strike",
+					"toHit": "+4",
+					"dmg": "3",
+					"dmgType": "Bludgeoning"
+				}
+			],
+			"magic": [
+				{
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"dmgType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
 		},
 		{
-			"id": 3,
-			"realDate": "June 1, 2022",
-			"gameDate": "22nd of Mor",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
+			"id": "Snowflake",
+			"player": "Lily",
+			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 30,
+			"initiative": "+3",
+			"abilityScores": [
+				{ "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "name": "Charisma", "score": 13, "mod": "+1" }
+			],
+			"skills": [
+				{ "name": "Acrobatics", "score": 0, "prof": "•" },
+				{ "name": "Animal Handling", "score": 0, "prof": "•" },
+				{ "name": "Arcana", "score": 0, "prof": "•" },
+				{ "name": "Deception", "score": 0, "prof": "•" },
+				{ "name": "History", "score": 0, "prof": "•" },
+				{ "name": "Insight", "score": 0, "prof": "•" },
+				{ "name": "Intimidation", "score": 0, "prof": "•" },
+				{ "name": "Investigation", "score": 0, "prof": "•" },
+				{ "name": "Medicine", "score": 0, "prof": "•" },
+				{ "name": "Nature", "score": 0, "prof": "•" },
+				{ "name": "Perception", "score": 0, "prof": "•" },
+				{ "name": "Performance", "score": 0, "prof": "•" },
+				{ "name": "Persuasion", "score": 0, "prof": "•" },
+				{ "name": "Religion", "score": 0, "prof": "•" },
+				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
+				{ "name": "Stealth", "score": 0, "prof": "•" },
+				{ "name": "Survival", "score": 0, "prof": "•" },
+				{ "name": "Passive Perception", "score": 16, "prof": "•" }
+			],
+			"weapons": [
+				{
+					"name": "Long Bow",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
+				},
+				{
+					"name": "Short Sword",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
+				},
+				{
+					"name": "Unarmed Strike",
+					"toHit": "+4",
+					"dmg": "3",
+					"dmgType": "Bludgeoning"
+				}
+			],
+			"magic": [
+				{
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"dmgType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
+			]
 		},
 		{
-			"id": 4,
-			"realDate": "June 8, 2022",
-			"gameDate": "23rd of Mor",
-			"author": "Snowflake",
-			"entries": [{ "date": "23rd", "event": "" }]
-		},
-		{
-			"id": 5,
-			"realDate": "June 15, 2022",
-			"gameDate": "?",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
-		},
-		{
-			"id": 6,
-			"realDate": "June 29, 2022",
-			"gameDate": "?",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
-		},
-		{
-			"id": 7,
-			"realDate": "July 6, 2022",
-			"gameDate": "?",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
-		},
-		{
-			"id": 8,
-			"realDate": "July 20, 2022",
-			"gameDate": "?",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
-		},
-		{
-			"id": 9,
-			"realDate": "July 27, 2022",
-			"gameDate": "?",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
-		},
-		{
-			"id": 10,
-			"realDate": "August 3, 2022",
-			"gameDate": "?",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
-		},
-		{
-			"id": 11,
-			"realDate": "?",
-			"gameDate": "?",
-			"author": "",
-			"entries": [{ "date": "", "event": "" }]
+			"id": "Snowflake",
+			"player": "Lily",
+			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 30,
+			"initiative": "+3",
+			"abilityScores": [
+				{ "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "name": "Charisma", "score": 13, "mod": "+1" }
+			],
+			"skills": [
+				{ "name": "Acrobatics", "score": 0, "prof": "•" },
+				{ "name": "Animal Handling", "score": 0, "prof": "•" },
+				{ "name": "Arcana", "score": 0, "prof": "•" },
+				{ "name": "Deception", "score": 0, "prof": "•" },
+				{ "name": "History", "score": 0, "prof": "•" },
+				{ "name": "Insight", "score": 0, "prof": "•" },
+				{ "name": "Intimidation", "score": 0, "prof": "•" },
+				{ "name": "Investigation", "score": 0, "prof": "•" },
+				{ "name": "Medicine", "score": 0, "prof": "•" },
+				{ "name": "Nature", "score": 0, "prof": "•" },
+				{ "name": "Perception", "score": 0, "prof": "•" },
+				{ "name": "Performance", "score": 0, "prof": "•" },
+				{ "name": "Persuasion", "score": 0, "prof": "•" },
+				{ "name": "Religion", "score": 0, "prof": "•" },
+				{ "name": "Sleight of Hand", "score": 0, "prof": "•" },
+				{ "name": "Stealth", "score": 0, "prof": "•" },
+				{ "name": "Survival", "score": 0, "prof": "•" },
+				{ "name": "Passive Perception", "score": 16, "prof": "•" }
+			],
+			"weapons": [
+				{
+					"name": "Long Bow",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
+				},
+				{
+					"name": "Short Sword",
+					"toHit": "+5",
+					"dmg": "1d8+3",
+					"dmgType": "Peircing"
+				},
+				{
+					"name": "Unarmed Strike",
+					"toHit": "+4",
+					"dmg": "3",
+					"dmgType": "Bludgeoning"
+				}
+			],
+			"magic": [
+				{
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"dmgType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
+			]
 		}
 	],
 	"npcs": [
