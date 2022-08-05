@@ -155,7 +155,7 @@
 		{
 			"id": "Aysum",
 			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"portrait": "https://iedwintorres.github.io/images/aysum.jpg",
 			"level": 5,
 			"class": "Druid",
 			"race": "Wood Elf",
@@ -231,7 +231,7 @@
 		{
 			"id": "Brana",
 			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"portrait": "https://iedwintorres.github.io/images/brana.jpg",
 			"level": 5,
 			"class": "Druid",
 			"race": "Wood Elf",
@@ -307,7 +307,7 @@
 		{
 			"id": "Glim",
 			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"portrait": "https://iedwintorres.github.io/images/glim.jpg",
 			"level": 5,
 			"class": "Druid",
 			"race": "Wood Elf",
@@ -383,7 +383,7 @@
 		{
 			"id": "Zagol",
 			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"portrait": "https://iedwintorres.github.io/images/zagol.jpg",
 			"level": 5,
 			"class": "Druid",
 			"race": "Wood Elf",
