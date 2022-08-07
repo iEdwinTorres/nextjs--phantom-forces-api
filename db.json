@@ -1,7 +1,8 @@
 {
 	"players": [
 		{
-			"id": "Elinor",
+			"id": 1,
+			"name": "Elinor",
 			"player": "Kelsi",
 			"portrait": "https://iedwintorres.github.io/images/elinor.jpg",
 			"level": 5,
@@ -77,7 +78,8 @@
 			]
 		},
 		{
-			"id": "Snowflake",
+			"id": 2,
+			"name": "Snowflake",
 			"player": "Lily",
 			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
 			"level": 5,
@@ -153,7 +155,8 @@
 			]
 		},
 		{
-			"id": "Aysum",
+			"id": 3,
+			"name": "Aysum",
 			"player": "Lily",
 			"portrait": "https://iedwintorres.github.io/images/aysum.jpg",
 			"level": 5,
@@ -229,7 +232,8 @@
 			]
 		},
 		{
-			"id": "Brana",
+			"id": 4,
+			"name": "Brana",
 			"player": "Lily",
 			"portrait": "https://iedwintorres.github.io/images/brana.jpg",
 			"level": 5,
@@ -305,7 +309,8 @@
 			]
 		},
 		{
-			"id": "Glim",
+			"id": 5,
+			"name": "Glim",
 			"player": "Lily",
 			"portrait": "https://iedwintorres.github.io/images/glim.jpg",
 			"level": 5,
@@ -381,7 +386,8 @@
 			]
 		},
 		{
-			"id": "Zagol",
+			"id": 6,
+			"name": "Zagol",
 			"player": "Lily",
 			"portrait": "https://iedwintorres.github.io/images/zagol.jpg",
 			"level": 5,
