@@ -80,7 +80,7 @@
 					"dmgType": "Bludgeoning"
 				}
 			],
-			"magic": [
+			"spells": [
 				{
 					"key": 1,
 					"name": "Frostbite",
