@@ -42,7 +42,7 @@
 				{ "key": 16, "name": "Sleight of Hand", "score": 3, "prof": false },
 				{ "key": 17, "name": "Stealth", "score": 3, "prof": false },
 				{ "key": 18, "name": "Survival", "score": 6, "prof": true },
-				{ "key": 19, "name": "Passive Perception", "score": 16 }
+				{ "key": 19, "name": "Passive Wisdom (Perception)", "score": 16 }
 			],
 			"features": [
 				{ "key": 1, "name": "Darkvision", "info": 60 },
@@ -62,22 +62,22 @@
 					"key": 1,
 					"name": "Long Bow",
 					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
+					"damage": "1d8+3",
+					"damageType": "Peircing"
 				},
 				{
 					"key": 2,
 					"name": "Short Sword",
 					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
+					"damage": "1d8+3",
+					"damageType": "Peircing"
 				},
 				{
 					"key": 3,
 					"name": "Unarmed Strike",
 					"toHit": "+4",
-					"dmg": "3",
-					"dmgType": "Bludgeoning"
+					"damage": "3",
+					"damageType": "Bludgeoning"
 				}
 			],
 			"spells": [
