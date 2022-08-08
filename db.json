@@ -11,7 +11,7 @@
 			"hitDice": "3d8",
 			"ac": 15,
 			"hp": 24,
-			"speed": 30,
+			"speed": 35,
 			"initiative": "+3",
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
@@ -22,25 +22,35 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatics", "score": 0, "prof": true },
-				{ "name": "Animal Handling", "score": 0, "prof": true },
-				{ "name": "Arcana", "score": 0, "prof": true },
-				{ "name": "Deception", "score": 0, "prof": true },
-				{ "name": "History", "score": 0, "prof": true },
-				{ "name": "Insight", "score": 0, "prof": true },
-				{ "name": "Intimidation", "score": 0, "prof": true },
-				{ "name": "Investigation", "score": 0, "prof": true },
-				{ "name": "Medicine", "score": 0, "prof": true },
-				{ "name": "Nature", "score": 0, "prof": true },
-				{ "name": "Perception", "score": 0, "prof": true },
-				{ "name": "Performance", "score": 0, "prof": true },
-				{ "name": "Persuasion", "score": 0, "prof": true },
-				{ "name": "Religion", "score": 0, "prof": true },
-				{ "name": "Sleight of Hand", "score": 0, "prof": true },
-				{ "name": "Stealth", "score": 0, "prof": true },
-				{ "name": "Survival", "score": 0, "prof": true },
-				{ "name": "Passive Perception", "score": 16, "prof": true }
+				{ "name": "Acrobatics", "score": 3, "prof": false },
+				{ "name": "Animal Handling", "score": 4, "prof": false },
+				{ "name": "Arcana", "score": 3, "prof": false },
+				{ "name": "Athletics", "score": 4, "prof": true },
+				{ "name": "Deception", "score": 1, "prof": false },
+				{ "name": "History", "score": 2, "prof": false },
+				{ "name": "Insight", "score": 6, "prof": true },
+				{ "name": "Intimidation", "score": 1, "prof": false },
+				{ "name": "Investigation", "score": 2, "prof": false },
+				{ "name": "Medicine", "score": 6, "prof": true },
+				{ "name": "Nature", "score": 2, "prof": false },
+				{ "name": "Perception", "score": 6, "prof": true },
+				{ "name": "Performance", "score": 1, "prof": false },
+				{ "name": "Persuasion", "score": 1, "prof": false },
+				{ "name": "Religion", "score": 2, "prof": false },
+				{ "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "name": "Stealth", "score": 3, "prof": false },
+				{ "name": "Survival", "score": 6, "prof": true },
+				{ "name": "Passive Perception", "score": 16 }
 			],
+			"features": [
+				{ "name": "Darkvision", "info": 60 },
+				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
+				{
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
 					"name": "Long Bow",
@@ -87,7 +97,7 @@
 			"hitDice": "3d8",
 			"ac": 15,
 			"hp": 24,
-			"speed": 30,
+			"speed": 35,
 			"initiative": "+3",
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
@@ -98,25 +108,35 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatics", "score": 0, "prof": true },
-				{ "name": "Animal Handling", "score": 0, "prof": true },
-				{ "name": "Arcana", "score": 0, "prof": true },
-				{ "name": "Deception", "score": 0, "prof": true },
-				{ "name": "History", "score": 0, "prof": true },
-				{ "name": "Insight", "score": 0, "prof": true },
-				{ "name": "Intimidation", "score": 0, "prof": true },
-				{ "name": "Investigation", "score": 0, "prof": true },
-				{ "name": "Medicine", "score": 0, "prof": true },
-				{ "name": "Nature", "score": 0, "prof": true },
-				{ "name": "Perception", "score": 0, "prof": true },
-				{ "name": "Performance", "score": 0, "prof": true },
-				{ "name": "Persuasion", "score": 0, "prof": true },
-				{ "name": "Religion", "score": 0, "prof": true },
-				{ "name": "Sleight of Hand", "score": 0, "prof": true },
-				{ "name": "Stealth", "score": 0, "prof": true },
-				{ "name": "Survival", "score": 0, "prof": true },
-				{ "name": "Passive Perception", "score": 16, "prof": true }
+				{ "name": "Acrobatics", "score": 3, "prof": false },
+				{ "name": "Animal Handling", "score": 4, "prof": false },
+				{ "name": "Arcana", "score": 3, "prof": false },
+				{ "name": "Athletics", "score": 4, "prof": true },
+				{ "name": "Deception", "score": 1, "prof": false },
+				{ "name": "History", "score": 2, "prof": false },
+				{ "name": "Insight", "score": 6, "prof": true },
+				{ "name": "Intimidation", "score": 1, "prof": false },
+				{ "name": "Investigation", "score": 2, "prof": false },
+				{ "name": "Medicine", "score": 6, "prof": true },
+				{ "name": "Nature", "score": 2, "prof": false },
+				{ "name": "Perception", "score": 6, "prof": true },
+				{ "name": "Performance", "score": 1, "prof": false },
+				{ "name": "Persuasion", "score": 1, "prof": false },
+				{ "name": "Religion", "score": 2, "prof": false },
+				{ "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "name": "Stealth", "score": 3, "prof": false },
+				{ "name": "Survival", "score": 6, "prof": true },
+				{ "name": "Passive Perception", "score": 16 }
 			],
+			"features": [
+				{ "name": "Darkvision", "info": 60 },
+				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
+				{
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
 					"name": "Long Bow",
@@ -154,7 +174,7 @@
 		},
 		{
 			"id": "Aysum",
-			"player": "Lily",
+			"player": "Tyler",
 			"portrait": "https://iedwintorres.github.io/images/aysum.jpg",
 			"level": 5,
 			"class": "Druid",
@@ -163,7 +183,7 @@
 			"hitDice": "3d8",
 			"ac": 15,
 			"hp": 24,
-			"speed": 30,
+			"speed": 35,
 			"initiative": "+3",
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
@@ -174,25 +194,35 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatics", "score": 0, "prof": true },
-				{ "name": "Animal Handling", "score": 0, "prof": true },
-				{ "name": "Arcana", "score": 0, "prof": true },
-				{ "name": "Deception", "score": 0, "prof": true },
-				{ "name": "History", "score": 0, "prof": true },
-				{ "name": "Insight", "score": 0, "prof": true },
-				{ "name": "Intimidation", "score": 0, "prof": true },
-				{ "name": "Investigation", "score": 0, "prof": true },
-				{ "name": "Medicine", "score": 0, "prof": true },
-				{ "name": "Nature", "score": 0, "prof": true },
-				{ "name": "Perception", "score": 0, "prof": true },
-				{ "name": "Performance", "score": 0, "prof": true },
-				{ "name": "Persuasion", "score": 0, "prof": true },
-				{ "name": "Religion", "score": 0, "prof": true },
-				{ "name": "Sleight of Hand", "score": 0, "prof": true },
-				{ "name": "Stealth", "score": 0, "prof": true },
-				{ "name": "Survival", "score": 0, "prof": true },
-				{ "name": "Passive Perception", "score": 16, "prof": true }
+				{ "name": "Acrobatics", "score": 3, "prof": false },
+				{ "name": "Animal Handling", "score": 4, "prof": false },
+				{ "name": "Arcana", "score": 3, "prof": false },
+				{ "name": "Athletics", "score": 4, "prof": true },
+				{ "name": "Deception", "score": 1, "prof": false },
+				{ "name": "History", "score": 2, "prof": false },
+				{ "name": "Insight", "score": 6, "prof": true },
+				{ "name": "Intimidation", "score": 1, "prof": false },
+				{ "name": "Investigation", "score": 2, "prof": false },
+				{ "name": "Medicine", "score": 6, "prof": true },
+				{ "name": "Nature", "score": 2, "prof": false },
+				{ "name": "Perception", "score": 6, "prof": true },
+				{ "name": "Performance", "score": 1, "prof": false },
+				{ "name": "Persuasion", "score": 1, "prof": false },
+				{ "name": "Religion", "score": 2, "prof": false },
+				{ "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "name": "Stealth", "score": 3, "prof": false },
+				{ "name": "Survival", "score": 6, "prof": true },
+				{ "name": "Passive Perception", "score": 16 }
 			],
+			"features": [
+				{ "name": "Darkvision", "info": 60 },
+				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
+				{
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
 					"name": "Long Bow",
@@ -230,7 +260,7 @@
 		},
 		{
 			"id": "Brana",
-			"player": "Lily",
+			"player": "Candance",
 			"portrait": "https://iedwintorres.github.io/images/brana.jpg",
 			"level": 5,
 			"class": "Druid",
@@ -239,7 +269,7 @@
 			"hitDice": "3d8",
 			"ac": 15,
 			"hp": 24,
-			"speed": 30,
+			"speed": 35,
 			"initiative": "+3",
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
@@ -250,25 +280,35 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatics", "score": 0, "prof": true },
-				{ "name": "Animal Handling", "score": 0, "prof": true },
-				{ "name": "Arcana", "score": 0, "prof": true },
-				{ "name": "Deception", "score": 0, "prof": true },
-				{ "name": "History", "score": 0, "prof": true },
-				{ "name": "Insight", "score": 0, "prof": true },
-				{ "name": "Intimidation", "score": 0, "prof": true },
-				{ "name": "Investigation", "score": 0, "prof": true },
-				{ "name": "Medicine", "score": 0, "prof": true },
-				{ "name": "Nature", "score": 0, "prof": true },
-				{ "name": "Perception", "score": 0, "prof": true },
-				{ "name": "Performance", "score": 0, "prof": true },
-				{ "name": "Persuasion", "score": 0, "prof": true },
-				{ "name": "Religion", "score": 0, "prof": true },
-				{ "name": "Sleight of Hand", "score": 0, "prof": true },
-				{ "name": "Stealth", "score": 0, "prof": true },
-				{ "name": "Survival", "score": 0, "prof": true },
-				{ "name": "Passive Perception", "score": 16, "prof": true }
+				{ "name": "Acrobatics", "score": 3, "prof": false },
+				{ "name": "Animal Handling", "score": 4, "prof": false },
+				{ "name": "Arcana", "score": 3, "prof": false },
+				{ "name": "Athletics", "score": 4, "prof": true },
+				{ "name": "Deception", "score": 1, "prof": false },
+				{ "name": "History", "score": 2, "prof": false },
+				{ "name": "Insight", "score": 6, "prof": true },
+				{ "name": "Intimidation", "score": 1, "prof": false },
+				{ "name": "Investigation", "score": 2, "prof": false },
+				{ "name": "Medicine", "score": 6, "prof": true },
+				{ "name": "Nature", "score": 2, "prof": false },
+				{ "name": "Perception", "score": 6, "prof": true },
+				{ "name": "Performance", "score": 1, "prof": false },
+				{ "name": "Persuasion", "score": 1, "prof": false },
+				{ "name": "Religion", "score": 2, "prof": false },
+				{ "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "name": "Stealth", "score": 3, "prof": false },
+				{ "name": "Survival", "score": 6, "prof": true },
+				{ "name": "Passive Perception", "score": 16 }
 			],
+			"features": [
+				{ "name": "Darkvision", "info": 60 },
+				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
+				{
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
 					"name": "Long Bow",
@@ -315,7 +355,7 @@
 			"hitDice": "3d8",
 			"ac": 15,
 			"hp": 24,
-			"speed": 30,
+			"speed": 35,
 			"initiative": "+3",
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
@@ -326,25 +366,35 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatics", "score": 0, "prof": true },
-				{ "name": "Animal Handling", "score": 0, "prof": true },
-				{ "name": "Arcana", "score": 0, "prof": true },
-				{ "name": "Deception", "score": 0, "prof": true },
-				{ "name": "History", "score": 0, "prof": true },
-				{ "name": "Insight", "score": 0, "prof": true },
-				{ "name": "Intimidation", "score": 0, "prof": true },
-				{ "name": "Investigation", "score": 0, "prof": true },
-				{ "name": "Medicine", "score": 0, "prof": true },
-				{ "name": "Nature", "score": 0, "prof": true },
-				{ "name": "Perception", "score": 0, "prof": true },
-				{ "name": "Performance", "score": 0, "prof": true },
-				{ "name": "Persuasion", "score": 0, "prof": true },
-				{ "name": "Religion", "score": 0, "prof": true },
-				{ "name": "Sleight of Hand", "score": 0, "prof": true },
-				{ "name": "Stealth", "score": 0, "prof": true },
-				{ "name": "Survival", "score": 0, "prof": true },
-				{ "name": "Passive Perception", "score": 16, "prof": true }
+				{ "name": "Acrobatics", "score": 3, "prof": false },
+				{ "name": "Animal Handling", "score": 4, "prof": false },
+				{ "name": "Arcana", "score": 3, "prof": false },
+				{ "name": "Athletics", "score": 4, "prof": true },
+				{ "name": "Deception", "score": 1, "prof": false },
+				{ "name": "History", "score": 2, "prof": false },
+				{ "name": "Insight", "score": 6, "prof": true },
+				{ "name": "Intimidation", "score": 1, "prof": false },
+				{ "name": "Investigation", "score": 2, "prof": false },
+				{ "name": "Medicine", "score": 6, "prof": true },
+				{ "name": "Nature", "score": 2, "prof": false },
+				{ "name": "Perception", "score": 6, "prof": true },
+				{ "name": "Performance", "score": 1, "prof": false },
+				{ "name": "Persuasion", "score": 1, "prof": false },
+				{ "name": "Religion", "score": 2, "prof": false },
+				{ "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "name": "Stealth", "score": 3, "prof": false },
+				{ "name": "Survival", "score": 6, "prof": true },
+				{ "name": "Passive Perception", "score": 16 }
 			],
+			"features": [
+				{ "name": "Darkvision", "info": 60 },
+				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
+				{
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
 					"name": "Long Bow",
@@ -391,7 +441,7 @@
 			"hitDice": "3d8",
 			"ac": 15,
 			"hp": 24,
-			"speed": 30,
+			"speed": 35,
 			"initiative": "+3",
 			"abilityScores": [
 				{ "name": "Stregth", "score": 14, "mod": "+2" },
@@ -402,25 +452,35 @@
 				{ "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatics", "score": 0, "prof": true },
-				{ "name": "Animal Handling", "score": 0, "prof": true },
-				{ "name": "Arcana", "score": 0, "prof": true },
-				{ "name": "Deception", "score": 0, "prof": true },
-				{ "name": "History", "score": 0, "prof": true },
-				{ "name": "Insight", "score": 0, "prof": true },
-				{ "name": "Intimidation", "score": 0, "prof": true },
-				{ "name": "Investigation", "score": 0, "prof": true },
-				{ "name": "Medicine", "score": 0, "prof": true },
-				{ "name": "Nature", "score": 0, "prof": true },
-				{ "name": "Perception", "score": 0, "prof": true },
-				{ "name": "Performance", "score": 0, "prof": true },
-				{ "name": "Persuasion", "score": 0, "prof": true },
-				{ "name": "Religion", "score": 0, "prof": true },
-				{ "name": "Sleight of Hand", "score": 0, "prof": true },
-				{ "name": "Stealth", "score": 0, "prof": true },
-				{ "name": "Survival", "score": 0, "prof": true },
-				{ "name": "Passive Perception", "score": 16, "prof": true }
+				{ "name": "Acrobatics", "score": 3, "prof": false },
+				{ "name": "Animal Handling", "score": 4, "prof": false },
+				{ "name": "Arcana", "score": 3, "prof": false },
+				{ "name": "Athletics", "score": 4, "prof": true },
+				{ "name": "Deception", "score": 1, "prof": false },
+				{ "name": "History", "score": 2, "prof": false },
+				{ "name": "Insight", "score": 6, "prof": true },
+				{ "name": "Intimidation", "score": 1, "prof": false },
+				{ "name": "Investigation", "score": 2, "prof": false },
+				{ "name": "Medicine", "score": 6, "prof": true },
+				{ "name": "Nature", "score": 2, "prof": false },
+				{ "name": "Perception", "score": 6, "prof": true },
+				{ "name": "Performance", "score": 1, "prof": false },
+				{ "name": "Persuasion", "score": 1, "prof": false },
+				{ "name": "Religion", "score": 2, "prof": false },
+				{ "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "name": "Stealth", "score": 3, "prof": false },
+				{ "name": "Survival", "score": 6, "prof": true },
+				{ "name": "Passive Perception", "score": 16 }
 			],
+			"features": [
+				{ "name": "Darkvision", "info": 60 },
+				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
+				{
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
 					"name": "Long Bow",
@@ -458,19 +518,5 @@
 		}
 	],
 	"npcs": [
-		{
-			"id": 1
-		},
-		{
-			"id": 2
-		}
-	],
-	"locations": [
-		{
-			"id": 1
-		},
-		{
-			"id": 2
-		}
 	]
 }
