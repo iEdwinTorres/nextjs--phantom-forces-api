@@ -14,6 +14,7 @@
 			"hp": 24,
 			"speed": 35,
 			"initiative": "+3",
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"abilityScores": [
 				{ "key": 1, "name": "Stregth", "score": 14, "mod": "+2" },
 				{ "key": 2, "name": "Dexterity", "score": 17, "mod": "+3" },
@@ -56,7 +57,6 @@
 					"info": "May attempt to hide when only lightly obscured."
 				}
 			],
-			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
 					"key": 1,
@@ -91,7 +91,7 @@
 					"duration": "Instantaneous",
 					"school": "Evocation",
 					"attack": "ON Save",
-					"dmgType": "Cold",
+					"damageType": "Cold",
 					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
