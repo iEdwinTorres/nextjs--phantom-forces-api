@@ -1,6 +1,7 @@
 {
 	"players": [
 		{
+			"key": 1,
 			"id": "Elinor",
 			"player": "Kelsi",
 			"portrait": "https://iedwintorres.github.io/images/elinor.jpg",
@@ -14,38 +15,43 @@
 			"speed": 35,
 			"initiative": "+3",
 			"abilityScores": [
-				{ "name": "Stregth", "score": 14, "mod": "+2" },
-				{ "name": "Dexterity", "score": 17, "mod": "+3" },
-				{ "name": "Constitution", "score": 15, "mod": "+2" },
-				{ "name": "Intelligence", "score": 15, "mod": "+2" },
-				{ "name": "Wisdom", "score": 19, "mod": "+4" },
-				{ "name": "Charisma", "score": 13, "mod": "+1" }
+				{ "key": 1, "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "key": 2, "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "key": 3, "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "key": 4, "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "key": 5, "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "key": 6, "name": "Charisma", "score": 13, "mod": "+1" }
 			],
 			"skills": [
-				{ "name": "Acrobatics", "score": 3, "prof": false },
-				{ "name": "Animal Handling", "score": 4, "prof": false },
-				{ "name": "Arcana", "score": 3, "prof": false },
-				{ "name": "Athletics", "score": 4, "prof": true },
-				{ "name": "Deception", "score": 1, "prof": false },
-				{ "name": "History", "score": 2, "prof": false },
-				{ "name": "Insight", "score": 6, "prof": true },
-				{ "name": "Intimidation", "score": 1, "prof": false },
-				{ "name": "Investigation", "score": 2, "prof": false },
-				{ "name": "Medicine", "score": 6, "prof": true },
-				{ "name": "Nature", "score": 2, "prof": false },
-				{ "name": "Perception", "score": 6, "prof": true },
-				{ "name": "Performance", "score": 1, "prof": false },
-				{ "name": "Persuasion", "score": 1, "prof": false },
-				{ "name": "Religion", "score": 2, "prof": false },
-				{ "name": "Sleight of Hand", "score": 3, "prof": false },
-				{ "name": "Stealth", "score": 3, "prof": false },
-				{ "name": "Survival", "score": 6, "prof": true },
-				{ "name": "Passive Perception", "score": 16 }
+				{ "key": 1, "name": "Acrobatics", "score": 3, "prof": false },
+				{ "key": 2, "name": "Animal Handling", "score": 4, "prof": false },
+				{ "key": 3, "name": "Arcana", "score": 3, "prof": false },
+				{ "key": 4, "name": "Athletics", "score": 4, "prof": true },
+				{ "key": 5, "name": "Deception", "score": 1, "prof": false },
+				{ "key": 6, "name": "History", "score": 2, "prof": false },
+				{ "key": 7, "name": "Insight", "score": 6, "prof": true },
+				{ "key": 8, "name": "Intimidation", "score": 1, "prof": false },
+				{ "key": 9, "name": "Investigation", "score": 2, "prof": false },
+				{ "key": 10, "name": "Medicine", "score": 6, "prof": true },
+				{ "key": 11, "name": "Nature", "score": 2, "prof": false },
+				{ "key": 12, "name": "Perception", "score": 6, "prof": true },
+				{ "key": 13, "name": "Performance", "score": 1, "prof": false },
+				{ "key": 14, "name": "Persuasion", "score": 1, "prof": false },
+				{ "key": 15, "name": "Religion", "score": 2, "prof": false },
+				{ "key": 16, "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "key": 17, "name": "Stealth", "score": 3, "prof": false },
+				{ "key": 18, "name": "Survival", "score": 6, "prof": true },
+				{ "key": 19, "name": "Passive Perception", "score": 16 }
 			],
 			"features": [
-				{ "name": "Darkvision", "info": 60 },
-				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
+				{ "key": 1, "name": "Darkvision", "info": 60 },
 				{
+					"key": 2,
+					"name": "Charm Resistance",
+					"info": "Advantange againts being charmed."
+				},
+				{
+					"key": 3,
 					"name": "Mark of the Wild",
 					"info": "May attempt to hide when only lightly obscured."
 				}
@@ -53,18 +59,21 @@
 			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
 			"weapons": [
 				{
+					"key": 1,
 					"name": "Long Bow",
 					"toHit": "+5",
 					"dmg": "1d8+3",
 					"dmgType": "Peircing"
 				},
 				{
+					"key": 2,
 					"name": "Short Sword",
 					"toHit": "+5",
 					"dmg": "1d8+3",
 					"dmgType": "Peircing"
 				},
 				{
+					"key": 3,
 					"name": "Unarmed Strike",
 					"toHit": "+4",
 					"dmg": "3",
@@ -73,436 +82,7 @@
 			],
 			"magic": [
 				{
-					"name": "Frostbite",
-					"level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"attack": "ON Save",
-					"dmgType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
-				}
-			]
-		},
-		{
-			"id": "Snowflake",
-			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
-			"level": 5,
-			"class": "Druid",
-			"race": "Wood Elf",
-			"description": "N/A",
-			"hitDice": "3d8",
-			"ac": 15,
-			"hp": 24,
-			"speed": 35,
-			"initiative": "+3",
-			"abilityScores": [
-				{ "name": "Stregth", "score": 14, "mod": "+2" },
-				{ "name": "Dexterity", "score": 17, "mod": "+3" },
-				{ "name": "Constitution", "score": 15, "mod": "+2" },
-				{ "name": "Intelligence", "score": 15, "mod": "+2" },
-				{ "name": "Wisdom", "score": 19, "mod": "+4" },
-				{ "name": "Charisma", "score": 13, "mod": "+1" }
-			],
-			"skills": [
-				{ "name": "Acrobatics", "score": 3, "prof": false },
-				{ "name": "Animal Handling", "score": 4, "prof": false },
-				{ "name": "Arcana", "score": 3, "prof": false },
-				{ "name": "Athletics", "score": 4, "prof": true },
-				{ "name": "Deception", "score": 1, "prof": false },
-				{ "name": "History", "score": 2, "prof": false },
-				{ "name": "Insight", "score": 6, "prof": true },
-				{ "name": "Intimidation", "score": 1, "prof": false },
-				{ "name": "Investigation", "score": 2, "prof": false },
-				{ "name": "Medicine", "score": 6, "prof": true },
-				{ "name": "Nature", "score": 2, "prof": false },
-				{ "name": "Perception", "score": 6, "prof": true },
-				{ "name": "Performance", "score": 1, "prof": false },
-				{ "name": "Persuasion", "score": 1, "prof": false },
-				{ "name": "Religion", "score": 2, "prof": false },
-				{ "name": "Sleight of Hand", "score": 3, "prof": false },
-				{ "name": "Stealth", "score": 3, "prof": false },
-				{ "name": "Survival", "score": 6, "prof": true },
-				{ "name": "Passive Perception", "score": 16 }
-			],
-			"features": [
-				{ "name": "Darkvision", "info": 60 },
-				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
-				{
-					"name": "Mark of the Wild",
-					"info": "May attempt to hide when only lightly obscured."
-				}
-			],
-			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
-			"weapons": [
-				{
-					"name": "Long Bow",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Short Sword",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Unarmed Strike",
-					"toHit": "+4",
-					"dmg": "3",
-					"dmgType": "Bludgeoning"
-				}
-			],
-			"magic": [
-				{
-					"name": "Frostbite",
-					"level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"attack": "ON Save",
-					"dmgType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
-				}
-			]
-		},
-		{
-			"id": "Aysum",
-			"player": "Tyler",
-			"portrait": "https://iedwintorres.github.io/images/aysum.jpg",
-			"level": 5,
-			"class": "Druid",
-			"race": "Wood Elf",
-			"description": "N/A",
-			"hitDice": "3d8",
-			"ac": 15,
-			"hp": 24,
-			"speed": 35,
-			"initiative": "+3",
-			"abilityScores": [
-				{ "name": "Stregth", "score": 14, "mod": "+2" },
-				{ "name": "Dexterity", "score": 17, "mod": "+3" },
-				{ "name": "Constitution", "score": 15, "mod": "+2" },
-				{ "name": "Intelligence", "score": 15, "mod": "+2" },
-				{ "name": "Wisdom", "score": 19, "mod": "+4" },
-				{ "name": "Charisma", "score": 13, "mod": "+1" }
-			],
-			"skills": [
-				{ "name": "Acrobatics", "score": 3, "prof": false },
-				{ "name": "Animal Handling", "score": 4, "prof": false },
-				{ "name": "Arcana", "score": 3, "prof": false },
-				{ "name": "Athletics", "score": 4, "prof": true },
-				{ "name": "Deception", "score": 1, "prof": false },
-				{ "name": "History", "score": 2, "prof": false },
-				{ "name": "Insight", "score": 6, "prof": true },
-				{ "name": "Intimidation", "score": 1, "prof": false },
-				{ "name": "Investigation", "score": 2, "prof": false },
-				{ "name": "Medicine", "score": 6, "prof": true },
-				{ "name": "Nature", "score": 2, "prof": false },
-				{ "name": "Perception", "score": 6, "prof": true },
-				{ "name": "Performance", "score": 1, "prof": false },
-				{ "name": "Persuasion", "score": 1, "prof": false },
-				{ "name": "Religion", "score": 2, "prof": false },
-				{ "name": "Sleight of Hand", "score": 3, "prof": false },
-				{ "name": "Stealth", "score": 3, "prof": false },
-				{ "name": "Survival", "score": 6, "prof": true },
-				{ "name": "Passive Perception", "score": 16 }
-			],
-			"features": [
-				{ "name": "Darkvision", "info": 60 },
-				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
-				{
-					"name": "Mark of the Wild",
-					"info": "May attempt to hide when only lightly obscured."
-				}
-			],
-			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
-			"weapons": [
-				{
-					"name": "Long Bow",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Short Sword",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Unarmed Strike",
-					"toHit": "+4",
-					"dmg": "3",
-					"dmgType": "Bludgeoning"
-				}
-			],
-			"magic": [
-				{
-					"name": "Frostbite",
-					"level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"attack": "ON Save",
-					"dmgType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
-				}
-			]
-		},
-		{
-			"id": "Brana",
-			"player": "Candance",
-			"portrait": "https://iedwintorres.github.io/images/brana.jpg",
-			"level": 5,
-			"class": "Druid",
-			"race": "Wood Elf",
-			"description": "N/A",
-			"hitDice": "3d8",
-			"ac": 15,
-			"hp": 24,
-			"speed": 35,
-			"initiative": "+3",
-			"abilityScores": [
-				{ "name": "Stregth", "score": 14, "mod": "+2" },
-				{ "name": "Dexterity", "score": 17, "mod": "+3" },
-				{ "name": "Constitution", "score": 15, "mod": "+2" },
-				{ "name": "Intelligence", "score": 15, "mod": "+2" },
-				{ "name": "Wisdom", "score": 19, "mod": "+4" },
-				{ "name": "Charisma", "score": 13, "mod": "+1" }
-			],
-			"skills": [
-				{ "name": "Acrobatics", "score": 3, "prof": false },
-				{ "name": "Animal Handling", "score": 4, "prof": false },
-				{ "name": "Arcana", "score": 3, "prof": false },
-				{ "name": "Athletics", "score": 4, "prof": true },
-				{ "name": "Deception", "score": 1, "prof": false },
-				{ "name": "History", "score": 2, "prof": false },
-				{ "name": "Insight", "score": 6, "prof": true },
-				{ "name": "Intimidation", "score": 1, "prof": false },
-				{ "name": "Investigation", "score": 2, "prof": false },
-				{ "name": "Medicine", "score": 6, "prof": true },
-				{ "name": "Nature", "score": 2, "prof": false },
-				{ "name": "Perception", "score": 6, "prof": true },
-				{ "name": "Performance", "score": 1, "prof": false },
-				{ "name": "Persuasion", "score": 1, "prof": false },
-				{ "name": "Religion", "score": 2, "prof": false },
-				{ "name": "Sleight of Hand", "score": 3, "prof": false },
-				{ "name": "Stealth", "score": 3, "prof": false },
-				{ "name": "Survival", "score": 6, "prof": true },
-				{ "name": "Passive Perception", "score": 16 }
-			],
-			"features": [
-				{ "name": "Darkvision", "info": 60 },
-				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
-				{
-					"name": "Mark of the Wild",
-					"info": "May attempt to hide when only lightly obscured."
-				}
-			],
-			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
-			"weapons": [
-				{
-					"name": "Long Bow",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Short Sword",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Unarmed Strike",
-					"toHit": "+4",
-					"dmg": "3",
-					"dmgType": "Bludgeoning"
-				}
-			],
-			"magic": [
-				{
-					"name": "Frostbite",
-					"level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"attack": "ON Save",
-					"dmgType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
-				}
-			]
-		},
-		{
-			"id": "Glim",
-			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/glim.jpg",
-			"level": 5,
-			"class": "Druid",
-			"race": "Wood Elf",
-			"description": "N/A",
-			"hitDice": "3d8",
-			"ac": 15,
-			"hp": 24,
-			"speed": 35,
-			"initiative": "+3",
-			"abilityScores": [
-				{ "name": "Stregth", "score": 14, "mod": "+2" },
-				{ "name": "Dexterity", "score": 17, "mod": "+3" },
-				{ "name": "Constitution", "score": 15, "mod": "+2" },
-				{ "name": "Intelligence", "score": 15, "mod": "+2" },
-				{ "name": "Wisdom", "score": 19, "mod": "+4" },
-				{ "name": "Charisma", "score": 13, "mod": "+1" }
-			],
-			"skills": [
-				{ "name": "Acrobatics", "score": 3, "prof": false },
-				{ "name": "Animal Handling", "score": 4, "prof": false },
-				{ "name": "Arcana", "score": 3, "prof": false },
-				{ "name": "Athletics", "score": 4, "prof": true },
-				{ "name": "Deception", "score": 1, "prof": false },
-				{ "name": "History", "score": 2, "prof": false },
-				{ "name": "Insight", "score": 6, "prof": true },
-				{ "name": "Intimidation", "score": 1, "prof": false },
-				{ "name": "Investigation", "score": 2, "prof": false },
-				{ "name": "Medicine", "score": 6, "prof": true },
-				{ "name": "Nature", "score": 2, "prof": false },
-				{ "name": "Perception", "score": 6, "prof": true },
-				{ "name": "Performance", "score": 1, "prof": false },
-				{ "name": "Persuasion", "score": 1, "prof": false },
-				{ "name": "Religion", "score": 2, "prof": false },
-				{ "name": "Sleight of Hand", "score": 3, "prof": false },
-				{ "name": "Stealth", "score": 3, "prof": false },
-				{ "name": "Survival", "score": 6, "prof": true },
-				{ "name": "Passive Perception", "score": 16 }
-			],
-			"features": [
-				{ "name": "Darkvision", "info": 60 },
-				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
-				{
-					"name": "Mark of the Wild",
-					"info": "May attempt to hide when only lightly obscured."
-				}
-			],
-			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
-			"weapons": [
-				{
-					"name": "Long Bow",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Short Sword",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Unarmed Strike",
-					"toHit": "+4",
-					"dmg": "3",
-					"dmgType": "Bludgeoning"
-				}
-			],
-			"magic": [
-				{
-					"name": "Frostbite",
-					"level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"attack": "ON Save",
-					"dmgType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
-				}
-			]
-		},
-		{
-			"id": "Zagol",
-			"player": "Lily",
-			"portrait": "https://iedwintorres.github.io/images/zagol.jpg",
-			"level": 5,
-			"class": "Druid",
-			"race": "Wood Elf",
-			"description": "N/A",
-			"hitDice": "3d8",
-			"ac": 15,
-			"hp": 24,
-			"speed": 35,
-			"initiative": "+3",
-			"abilityScores": [
-				{ "name": "Stregth", "score": 14, "mod": "+2" },
-				{ "name": "Dexterity", "score": 17, "mod": "+3" },
-				{ "name": "Constitution", "score": 15, "mod": "+2" },
-				{ "name": "Intelligence", "score": 15, "mod": "+2" },
-				{ "name": "Wisdom", "score": 19, "mod": "+4" },
-				{ "name": "Charisma", "score": 13, "mod": "+1" }
-			],
-			"skills": [
-				{ "name": "Acrobatics", "score": 3, "prof": false },
-				{ "name": "Animal Handling", "score": 4, "prof": false },
-				{ "name": "Arcana", "score": 3, "prof": false },
-				{ "name": "Athletics", "score": 4, "prof": true },
-				{ "name": "Deception", "score": 1, "prof": false },
-				{ "name": "History", "score": 2, "prof": false },
-				{ "name": "Insight", "score": 6, "prof": true },
-				{ "name": "Intimidation", "score": 1, "prof": false },
-				{ "name": "Investigation", "score": 2, "prof": false },
-				{ "name": "Medicine", "score": 6, "prof": true },
-				{ "name": "Nature", "score": 2, "prof": false },
-				{ "name": "Perception", "score": 6, "prof": true },
-				{ "name": "Performance", "score": 1, "prof": false },
-				{ "name": "Persuasion", "score": 1, "prof": false },
-				{ "name": "Religion", "score": 2, "prof": false },
-				{ "name": "Sleight of Hand", "score": 3, "prof": false },
-				{ "name": "Stealth", "score": 3, "prof": false },
-				{ "name": "Survival", "score": 6, "prof": true },
-				{ "name": "Passive Perception", "score": 16 }
-			],
-			"features": [
-				{ "name": "Darkvision", "info": 60 },
-				{ "name": "Charm Resistance", "info": "Advantange againts being charmed." },
-				{
-					"name": "Mark of the Wild",
-					"info": "May attempt to hide when only lightly obscured."
-				}
-			],
-			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
-			"weapons": [
-				{
-					"name": "Long Bow",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Short Sword",
-					"toHit": "+5",
-					"dmg": "1d8+3",
-					"dmgType": "Peircing"
-				},
-				{
-					"name": "Unarmed Strike",
-					"toHit": "+4",
-					"dmg": "3",
-					"dmgType": "Bludgeoning"
-				}
-			],
-			"magic": [
-				{
+					"key": 1,
 					"name": "Frostbite",
 					"level": "Cantrip",
 					"casting": "1 Action",
@@ -517,6 +97,5 @@
 			]
 		}
 	],
-	"npcs": [
-	]
+	"npcs": []
 }
