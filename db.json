@@ -2,6 +2,192 @@
 	"players": [
 		{
 			"key": 1,
+			"id": "Aysum",
+			"player": "Tyler",
+			"portrait": "https://iedwintorres.github.io/images/aysum.jpg",
+			"level": 5,
+			"class": "Bard",
+			"race": "Human",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 16,
+			"hp": 43,
+			"speed": 35,
+			"initiative": "+5",
+			"proficiency": "+3",
+			"languages": ["Common", "Dwarvish"],
+			"abilityScores": [
+				{ "key": 1, "name": "Stregth", "score": 11, "mod": "+0" },
+				{ "key": 2, "name": "Dexterity", "score": 18, "mod": "+4" },
+				{ "key": 3, "name": "Constitution", "score": 16, "mod": "+3" },
+				{ "key": 4, "name": "Intelligence", "score": 11, "mod": "+0" },
+				{ "key": 5, "name": "Wisdom", "score": 14, "mod": "+2" },
+				{ "key": 6, "name": "Charisma", "score": 18, "mod": "+4" }
+			],
+			"skills": [
+				{ "key": 1, "name": "Acrobatics", "mod": "+5", "prof": false },
+				{ "key": 2, "name": "Animal Handling", "mod": "+3", "prof": false },
+				{ "key": 3, "name": "Arcana", "mod": "+1", "prof": false },
+				{ "key": 4, "name": "Athletics", "mod": "+1", "prof": false },
+				{ "key": 5, "name": "Deception", "mod": "+7", "prof": false },
+				{ "key": 6, "name": "History", "mod": "+1", "prof": false },
+				{ "key": 7, "name": "Insight", "mod": "+3", "prof": false },
+				{ "key": 8, "name": "Intimidation", "mod": "+5", "prof": false },
+				{ "key": 9, "name": "Investigation", "mod": "+3", "prof": false },
+				{ "key": 10, "name": "Medicine", "mod": "+3", "prof": false },
+				{ "key": 11, "name": "Nature", "mod": "+1", "prof": false },
+				{ "key": 12, "name": "Perception", "mod": "+5", "prof": false },
+				{ "key": 13, "name": "Performance", "mod": "+10", "prof": false },
+				{ "key": 14, "name": "Persuasion", "mod": "+5", "prof": false },
+				{ "key": 15, "name": "Religion", "mod": "+1", "prof": false },
+				{ "key": 16, "name": "Sleight of Hand", "mod": "+7", "prof": false },
+				{ "key": 17, "name": "Stealth", "mod": "+10", "prof": false },
+				{ "key": 18, "name": "Survival", "mod": "+3", "prof": false },
+				{ "key": 19, "name": "Passive Wisdom (Perception)", "mod": "15" }
+			],
+			"savingThrows": [
+				{ "key": 1, "name": "Stregth", "mod": "+0", "prof": false },
+				{ "key": 2, "name": "Dexterity", "mod": "+7", "prof": true },
+				{ "key": 3, "name": "Constitution", "mod": "+3", "prof": false },
+				{ "key": 4, "name": "Intelligence", "mod": "+0", "prof": false },
+				{ "key": 5, "name": "Wisdom", "mod": "+2", "prof": true },
+				{ "key": 6, "name": "Charisma", "mod": "+7", "prof": true }
+			],
+			"features": [
+				{ "key": 1, "name": "Bardic Inspiration", "info": "As a bonus action, a creature (other than you) within 60 ft. that can hear you gains an inspiration die (1d8). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome." },
+				{ "key": 2, "name": "Jack of All Trades", "info": "You can add half your proficiency bonus, rounded down (+1), to any ability check you make that doesn’t already include it." },
+				{ "key": 3, "name": "Song of Rest", "info": "If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points." },
+				{ "key": 4, "name": "Expertise", "info": "Your proficiency bonus is doubled for any ability check you make with chosen proficiencies (2 at 3rd and 10th level)." },
+				{ "key": 5, "name": "Cutting Words", "info": "As a reaction when a creature (that's not immune to being charmed) you can see within 60 ft. makes an attack roll, ability check, or damage roll, you can expend one use of Bardic Inspiration, roll the die, and subtract the number from the creature's roll. You can do so after the roll but before knowing the result." },
+				{ "key": 6, "name": "Font of Inspiration", "info": "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest." }
+			],
+			"weapons": [
+				{ "key": 1, "name": "Long Bow", "range": "+5", "toHit": "+5", "damage": "1d8+3 Peircing", "properties": "" },
+				{ "key": 2, "name": "Short Sword", "range": "+5", "toHit": "+5", "damage": "1d8+3 Peircing", "properties": "" },
+				{ "key": 3, "name": "Unarmed Strike", "range": "+5", "toHit": "+4", "damage": "3 Bludgeoning", "properties": "" }
+			],
+			"spells": [
+				{
+					"key": 1,
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"damageType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
+			]
+		},
+		{
+			"key": 2,
+			"id": "Brana",
+			"player": "Candance",
+			"portrait": "https://iedwintorres.github.io/images/brana.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 35,
+			"initiative": "+3",
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
+			"abilityScores": [
+				{ "key": 1, "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "key": 2, "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "key": 3, "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "key": 4, "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "key": 5, "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "key": 6, "name": "Charisma", "score": 13, "mod": "+1" }
+			],
+			"skills": [
+				{ "key": 1, "name": "Acrobatics", "score": 3, "prof": false },
+				{ "key": 2, "name": "Animal Handling", "score": 4, "prof": false },
+				{ "key": 3, "name": "Arcana", "score": 3, "prof": false },
+				{ "key": 4, "name": "Athletics", "score": 4, "prof": true },
+				{ "key": 5, "name": "Deception", "score": 1, "prof": false },
+				{ "key": 6, "name": "History", "score": 2, "prof": false },
+				{ "key": 7, "name": "Insight", "score": 6, "prof": true },
+				{ "key": 8, "name": "Intimidation", "score": 1, "prof": false },
+				{ "key": 9, "name": "Investigation", "score": 2, "prof": false },
+				{ "key": 10, "name": "Medicine", "score": 6, "prof": true },
+				{ "key": 11, "name": "Nature", "score": 2, "prof": false },
+				{ "key": 12, "name": "Perception", "score": 6, "prof": true },
+				{ "key": 13, "name": "Performance", "score": 1, "prof": false },
+				{ "key": 14, "name": "Persuasion", "score": 1, "prof": false },
+				{ "key": 15, "name": "Religion", "score": 2, "prof": false },
+				{ "key": 16, "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "key": 17, "name": "Stealth", "score": 3, "prof": false },
+				{ "key": 18, "name": "Survival", "score": 6, "prof": true },
+				{ "key": 19, "name": "Passive Wisdom (Perception)", "score": 16 }
+			],
+			"savingThrows": [
+				{ "key": 1, "name": "Stregth", "mod": "+0", "prof": false },
+				{ "key": 2, "name": "Dexterity", "mod": "+3", "prof": false },
+				{ "key": 3, "name": "Constitution", "mod": "+2", "prof": false },
+				{ "key": 4, "name": "Intelligence", "mod": "+0", "prof": false },
+				{ "key": 5, "name": "Wisdom", "mod": "+2", "prof": true },
+				{ "key": 6, "name": "Charisma", "mod": "+5", "prof": true }
+			],
+			"features": [
+				{ "key": 1, "name": "Darkvision", "info": 60 },
+				{
+					"key": 2,
+					"name": "Charm Resistance",
+					"info": "Advantange againts being charmed."
+				},
+				{
+					"key": 3,
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"weapons": [
+				{
+					"key": 1,
+					"name": "Long Bow",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 2,
+					"name": "Short Sword",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 3,
+					"name": "Unarmed Strike",
+					"toHit": "+4",
+					"damage": "3 Bludgeoning",
+					"properties": ""
+				}
+			],
+			"spells": [
+				{
+					"key": 1,
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"damageType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
+			]
+		},
+		{
+			"key": 3,
 			"id": "Elinor",
 			"player": "Kelsi",
 			"portrait": "https://iedwintorres.github.io/images/elinor.jpg",
@@ -44,6 +230,14 @@
 				{ "key": 18, "name": "Survival", "score": 6, "prof": true },
 				{ "key": 19, "name": "Passive Wisdom (Perception)", "score": 16 }
 			],
+			"savingThrows": [
+				{ "key": 1, "name": "Stregth", "mod": "+0", "prof": false },
+				{ "key": 2, "name": "Dexterity", "mod": "+3", "prof": false },
+				{ "key": 3, "name": "Constitution", "mod": "+2", "prof": false },
+				{ "key": 4, "name": "Intelligence", "mod": "+0", "prof": false },
+				{ "key": 5, "name": "Wisdom", "mod": "+2", "prof": true },
+				{ "key": 6, "name": "Charisma", "mod": "+5", "prof": true }
+			],
 			"features": [
 				{ "key": 1, "name": "Darkvision", "info": 60 },
 				{
@@ -62,22 +256,22 @@
 					"key": 1,
 					"name": "Long Bow",
 					"toHit": "+5",
-					"damage": "1d8+3",
-					"damageType": "Peircing"
+					"damage": "1d8+3 Peircing",
+					"properties": ""
 				},
 				{
 					"key": 2,
 					"name": "Short Sword",
 					"toHit": "+5",
-					"damage": "1d8+3",
-					"damageType": "Peircing"
+					"damage": "1d8+3 Peircing",
+					"properties": ""
 				},
 				{
 					"key": 3,
 					"name": "Unarmed Strike",
 					"toHit": "+4",
-					"damage": "3",
-					"damageType": "Bludgeoning"
+					"damage": "3 Bludgeoning",
+					"properties": ""
 				}
 			],
 			"spells": [
@@ -95,7 +289,403 @@
 					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
 				}
 			]
+		},
+		{
+			"key": 4,
+			"id": "Glim",
+			"player": "JP",
+			"portrait": "https://iedwintorres.github.io/images/glim.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 35,
+			"initiative": "+3",
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
+			"abilityScores": [
+				{ "key": 1, "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "key": 2, "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "key": 3, "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "key": 4, "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "key": 5, "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "key": 6, "name": "Charisma", "score": 13, "mod": "+1" }
+			],
+			"skills": [
+				{ "key": 1, "name": "Acrobatics", "score": 3, "prof": false },
+				{ "key": 2, "name": "Animal Handling", "score": 4, "prof": false },
+				{ "key": 3, "name": "Arcana", "score": 3, "prof": false },
+				{ "key": 4, "name": "Athletics", "score": 4, "prof": true },
+				{ "key": 5, "name": "Deception", "score": 1, "prof": false },
+				{ "key": 6, "name": "History", "score": 2, "prof": false },
+				{ "key": 7, "name": "Insight", "score": 6, "prof": true },
+				{ "key": 8, "name": "Intimidation", "score": 1, "prof": false },
+				{ "key": 9, "name": "Investigation", "score": 2, "prof": false },
+				{ "key": 10, "name": "Medicine", "score": 6, "prof": true },
+				{ "key": 11, "name": "Nature", "score": 2, "prof": false },
+				{ "key": 12, "name": "Perception", "score": 6, "prof": true },
+				{ "key": 13, "name": "Performance", "score": 1, "prof": false },
+				{ "key": 14, "name": "Persuasion", "score": 1, "prof": false },
+				{ "key": 15, "name": "Religion", "score": 2, "prof": false },
+				{ "key": 16, "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "key": 17, "name": "Stealth", "score": 3, "prof": false },
+				{ "key": 18, "name": "Survival", "score": 6, "prof": true },
+				{ "key": 19, "name": "Passive Wisdom (Perception)", "score": 16 }
+			],
+			"savingThrows": [
+				{ "key": 1, "name": "Stregth", "mod": "+0", "prof": false },
+				{ "key": 2, "name": "Dexterity", "mod": "+3", "prof": false },
+				{ "key": 3, "name": "Constitution", "mod": "+2", "prof": false },
+				{ "key": 4, "name": "Intelligence", "mod": "+0", "prof": false },
+				{ "key": 5, "name": "Wisdom", "mod": "+2", "prof": true },
+				{ "key": 6, "name": "Charisma", "mod": "+5", "prof": true }
+			],
+			"features": [
+				{ "key": 1, "name": "Darkvision", "info": 60 },
+				{
+					"key": 2,
+					"name": "Charm Resistance",
+					"info": "Advantange againts being charmed."
+				},
+				{
+					"key": 3,
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"weapons": [
+				{
+					"key": 1,
+					"name": "Long Bow",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 2,
+					"name": "Short Sword",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 3,
+					"name": "Unarmed Strike",
+					"toHit": "+4",
+					"damage": "3 Bludgeoning",
+					"properties": ""
+				}
+			],
+			"spells": [
+				{
+					"key": 1,
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"damageType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
+			]
+		},
+		{
+			"key": 5,
+			"id": "Snowflake",
+			"player": "Lily",
+			"portrait": "https://iedwintorres.github.io/images/snowflake.jpg",
+			"level": 5,
+			"class": "Druid",
+			"race": "Wood Elf",
+			"description": "N/A",
+			"hitDice": "3d8",
+			"ac": 15,
+			"hp": 24,
+			"speed": 35,
+			"initiative": "+3",
+			"languages": ["Common", "Druic", "Elvish", "Gnomish"],
+			"abilityScores": [
+				{ "key": 1, "name": "Stregth", "score": 14, "mod": "+2" },
+				{ "key": 2, "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "key": 3, "name": "Constitution", "score": 15, "mod": "+2" },
+				{ "key": 4, "name": "Intelligence", "score": 15, "mod": "+2" },
+				{ "key": 5, "name": "Wisdom", "score": 19, "mod": "+4" },
+				{ "key": 6, "name": "Charisma", "score": 13, "mod": "+1" }
+			],
+			"skills": [
+				{ "key": 1, "name": "Acrobatics", "score": 3, "prof": false },
+				{ "key": 2, "name": "Animal Handling", "score": 4, "prof": false },
+				{ "key": 3, "name": "Arcana", "score": 3, "prof": false },
+				{ "key": 4, "name": "Athletics", "score": 4, "prof": true },
+				{ "key": 5, "name": "Deception", "score": 1, "prof": false },
+				{ "key": 6, "name": "History", "score": 2, "prof": false },
+				{ "key": 7, "name": "Insight", "score": 6, "prof": true },
+				{ "key": 8, "name": "Intimidation", "score": 1, "prof": false },
+				{ "key": 9, "name": "Investigation", "score": 2, "prof": false },
+				{ "key": 10, "name": "Medicine", "score": 6, "prof": true },
+				{ "key": 11, "name": "Nature", "score": 2, "prof": false },
+				{ "key": 12, "name": "Perception", "score": 6, "prof": true },
+				{ "key": 13, "name": "Performance", "score": 1, "prof": false },
+				{ "key": 14, "name": "Persuasion", "score": 1, "prof": false },
+				{ "key": 15, "name": "Religion", "score": 2, "prof": false },
+				{ "key": 16, "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "key": 17, "name": "Stealth", "score": 3, "prof": false },
+				{ "key": 18, "name": "Survival", "score": 6, "prof": true },
+				{ "key": 19, "name": "Passive Wisdom (Perception)", "score": 16 }
+			],
+			"savingThrows": [
+				{ "key": 1, "name": "Stregth", "mod": "+0", "prof": false },
+				{ "key": 2, "name": "Dexterity", "mod": "+3", "prof": false },
+				{ "key": 3, "name": "Constitution", "mod": "+2", "prof": false },
+				{ "key": 4, "name": "Intelligence", "mod": "+0", "prof": false },
+				{ "key": 5, "name": "Wisdom", "mod": "+2", "prof": true },
+				{ "key": 6, "name": "Charisma", "mod": "+5", "prof": true }
+			],
+			"features": [
+				{ "key": 1, "name": "Darkvision", "info": 60 },
+				{
+					"key": 2,
+					"name": "Charm Resistance",
+					"info": "Advantange againts being charmed."
+				},
+				{
+					"key": 3,
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"weapons": [
+				{
+					"key": 1,
+					"name": "Long Bow",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 2,
+					"name": "Short Sword",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 3,
+					"name": "Unarmed Strike",
+					"toHit": "+4",
+					"damage": "3 Bludgeoning",
+					"properties": ""
+				}
+			],
+			"spells": [
+				{
+					"key": 1,
+					"name": "Frostbite",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "ON Save",
+					"damageType": "Cold",
+					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+				}
+			]
+		},
+		{
+			"key": 6,
+			"id": "Zagol",
+			"player": "Ryan",
+			"portrait": "https://iedwintorres.github.io/images/zagol.jpg",
+			"level": 5,
+			"class": "Warlock",
+			"race": "Goblin",
+			"description": "N/A",
+			"hitDice": "1d8",
+			"ac": 17,
+			"hp": 36,
+			"speed": 30,
+			"initiative": "+3",
+			"languages": ["Common", "Goblin"],
+			"abilityScores": [
+				{ "key": 1, "name": "Stregth", "score": 10, "mod": "+0" },
+				{ "key": 2, "name": "Dexterity", "score": 17, "mod": "+3" },
+				{ "key": 3, "name": "Constitution", "score": 14, "mod": "+2" },
+				{ "key": 4, "name": "Intelligence", "score": 10, "mod": "+0" },
+				{ "key": 5, "name": "Wisdom", "score": 10, "mod": "+0" },
+				{ "key": 6, "name": "Charisma", "score": 16, "mod": "+3" }
+			],
+			"skills": [
+				{ "key": 1, "name": "Acrobatics", "score": 3, "prof": false },
+				{ "key": 2, "name": "Animal Handling", "score": 0, "prof": false },
+				{ "key": 3, "name": "Arcana", "score": 0, "prof": false },
+				{ "key": 4, "name": "Athletics", "score": 0, "prof": false },
+				{ "key": 5, "name": "Deception", "score": 7, "prof": true },
+				{ "key": 6, "name": "History", "score": 0, "prof": false },
+				{ "key": 7, "name": "Insight", "score": 0, "prof": false },
+				{ "key": 8, "name": "Intimidation", "score": 3, "prof": false },
+				{ "key": 9, "name": "Investigation", "score": 0, "prof": false },
+				{ "key": 10, "name": "Medicine", "score": 3, "prof": true },
+				{ "key": 11, "name": "Nature", "score": 2, "prof": false },
+				{ "key": 12, "name": "Perception", "score": 0, "prof": false },
+				{ "key": 13, "name": "Performance", "score": 3, "prof": false },
+				{ "key": 14, "name": "Persuasion", "score": 3, "prof": false },
+				{ "key": 15, "name": "Religion", "score": 3, "prof": true },
+				{ "key": 16, "name": "Sleight of Hand", "score": 3, "prof": false },
+				{ "key": 17, "name": "Stealth", "score": 0, "prof": false },
+				{ "key": 18, "name": "Survival", "score": 6, "prof": true },
+				{ "key": 19, "name": "Passive Wisdom (Perception)", "score": "+10" }
+			],
+			"savingThrows": [
+				{ "key": 1, "name": "Stregth", "mod": "+0", "prof": false },
+				{ "key": 2, "name": "Dexterity", "mod": "+3", "prof": false },
+				{ "key": 3, "name": "Constitution", "mod": "+2", "prof": false },
+				{ "key": 4, "name": "Intelligence", "mod": "+0", "prof": false },
+				{ "key": 5, "name": "Wisdom", "mod": "+2", "prof": true },
+				{ "key": 6, "name": "Charisma", "mod": "+5", "prof": true }
+			],
+			"features": [
+				{ "key": 1, "name": "Darkvision", "info": 60 },
+				{
+					"key": 2,
+					"name": "Charm Resistance",
+					"info": "Advantange againts being charmed."
+				},
+				{
+					"key": 3,
+					"name": "Mark of the Wild",
+					"info": "May attempt to hide when only lightly obscured."
+				}
+			],
+			"weapons": [
+				{
+					"key": 1,
+					"name": "Dagger",
+					"toHit": "+5",
+					"damage": "1d4+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 2,
+					"name": "Eldritch Blast",
+					"toHit": "+4",
+					"damage": "1d10+2 Force",
+					"properties": ""
+				},
+				{
+					"key": 3,
+					"name": "Pact Scimitar",
+					"toHit": "+7",
+					"damage": "1d6+5 Slashing",
+					"properties": ""
+				}
+			],
+			"spells": [
+				{
+					"key": 1,
+					"name": "Hellish Rebuke",
+					"level": "1st",
+					"casting": "1 Reaction (Taken in response to being damaged by a creature within 60 feet of you that you can see)",
+					"range": "60 ft.",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "Instantaneous",
+					"school": "Evocation",
+					"attack": "DEX Save",
+					"damage": "2d10 Fire",
+					"description": "You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.",
+					"atHigherLevel": "At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st."
+				},
+				{
+					"key": 2,
+					"name": "Suggestion",
+					"level": "2nd",
+					"casting": "1 Action",
+					"range": "30 ft.",
+					"components": "Verbal (V), Material (M) - a snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+					"duration": "8 hours, Concentration",
+					"school": "Enchantment",
+					"attack": "WIS Save",
+					"damage": "Control (...)",
+					"description": "You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.\nThe target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.\nYou can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.\nIf you or any of your companions damage the target, the spell ends.",
+					"atHigherLevel": null
+				},
+				{
+					"key": 3,
+					"name": "Shield",
+					"level": "1st",
+					"casting": "1 Reaction (which you take when you are hit by an attack or targeted by the magic missile spell)",
+					"range": "Self",
+					"components": "Verbal (V), Somatic (S)",
+					"duration": "1 Round",
+					"school": "Abjuration",
+					"attack": "None",
+					"damage": null,
+					"description": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+					"atHigherLevel": null
+				},
+				{
+					"key": 4,
+					"name": "Hex",
+					"level": "1st",
+					"casting": "1 Bonus Action",
+					"range": "90 ft.",
+					"components": "Verbal (V), Somatic (S), Material (M) - the petrified eye of a newt",
+					"duration": "1 hour, Concentration",
+					"school": "Enchantment",
+					"attack": "None",
+					"damage": " extra 1d6 Necrotic",
+					"description": "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.\nIf the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.\nA remove curse cast on the target ends this spell early.",
+					"atHigherLevel": "At Higher Levels. When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours."
+				},
+				{
+					"key": 5,
+					"name": "Armor of Agathys",
+					"level": "1st",
+					"casting": "1 Action",
+					"range": "Self",
+					"components": "Verbal (V), Somatic (S), Material (M) - a cup of water",
+					"duration": "1 hour",
+					"school": "Abjuration",
+					"attack": "None",
+					"damage": "5 Cold",
+					"description": "A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.",
+					"atHigherLevel": "At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot."
+				},
+				{
+					"key": 6,
+					"name": "Booming Blade",
+					"level": "Cantrip",
+					"casting": "1 Action",
+					"range": "Self (5 ft. Radius)",
+					"components": "Verbal (V), Material (M) - a melee weapon worth atleast 1 sp",
+					"duration": "1 Round",
+					"school": "Evocation",
+					"attack": "None",
+					"damage": "1d8 Thunder",
+					"description": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails.\nOn a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves be- fore then, it immediately takes 1d8 thunder damage, and the spell ends.\nThis spell's damage increases when you reach higher levels. ",
+					"atHigherLevel": "At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level."
+				},
+				{
+					"key": 0,
+					"name": "",
+					"level": "",
+					"casting": "",
+					"range": "",
+					"components": "",
+					"duration": "",
+					"school": "",
+					"attack": "",
+					"damage": "",
+					"description": "",
+					"atHigherLevel": null
+				}
+			]
 		}
-	],
-	"npcs": []
+	]
 }
