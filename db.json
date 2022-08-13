@@ -54,17 +54,62 @@
 				{ "key": 6, "name": "Charisma", "mod": "+7", "prof": true }
 			],
 			"features": [
-				{ "key": 1, "name": "Bardic Inspiration", "info": "As a bonus action, a creature (other than you) within 60 ft. that can hear you gains an inspiration die (1d8). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome." },
-				{ "key": 2, "name": "Jack of All Trades", "info": "You can add half your proficiency bonus, rounded down (+1), to any ability check you make that doesn’t already include it." },
-				{ "key": 3, "name": "Song of Rest", "info": "If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points." },
-				{ "key": 4, "name": "Expertise", "info": "Your proficiency bonus is doubled for any ability check you make with chosen proficiencies (2 at 3rd and 10th level)." },
-				{ "key": 5, "name": "Cutting Words", "info": "As a reaction when a creature (that's not immune to being charmed) you can see within 60 ft. makes an attack roll, ability check, or damage roll, you can expend one use of Bardic Inspiration, roll the die, and subtract the number from the creature's roll. You can do so after the roll but before knowing the result." },
-				{ "key": 6, "name": "Font of Inspiration", "info": "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest." }
+				{
+					"key": 1,
+					"name": "Bardic Inspiration",
+					"info": "As a bonus action, a creature (other than you) within 60 ft. that can hear you gains an inspiration die (1d8). For 10 minutes, the creature can add it to one ability check, attack roll, or saving throw. This can be added after seeing the roll, but before knowing the outcome."
+				},
+				{
+					"key": 2,
+					"name": "Jack of All Trades",
+					"info": "You can add half your proficiency bonus, rounded down (+1), to any ability check you make that doesn’t already include it."
+				},
+				{
+					"key": 3,
+					"name": "Song of Rest",
+					"info": "If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points."
+				},
+				{
+					"key": 4,
+					"name": "Expertise",
+					"info": "Your proficiency bonus is doubled for any ability check you make with chosen proficiencies (2 at 3rd and 10th level)."
+				},
+				{
+					"key": 5,
+					"name": "Cutting Words",
+					"info": "As a reaction when a creature (that's not immune to being charmed) you can see within 60 ft. makes an attack roll, ability check, or damage roll, you can expend one use of Bardic Inspiration, roll the die, and subtract the number from the creature's roll. You can do so after the roll but before knowing the result."
+				},
+				{
+					"key": 6,
+					"name": "Font of Inspiration",
+					"info": "You regain all of your expended uses of Bardic Inspiration when you finish a short or long rest."
+				}
 			],
 			"weapons": [
-				{ "key": 1, "name": "Long Bow", "range": "+5", "toHit": "+5", "damage": "1d8+3 Peircing", "properties": "" },
-				{ "key": 2, "name": "Short Sword", "range": "+5", "toHit": "+5", "damage": "1d8+3 Peircing", "properties": "" },
-				{ "key": 3, "name": "Unarmed Strike", "range": "+5", "toHit": "+4", "damage": "3 Bludgeoning", "properties": "" }
+				{
+					"key": 1,
+					"name": "Long Bow",
+					"range": "+5",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 2,
+					"name": "Short Sword",
+					"range": "+5",
+					"toHit": "+5",
+					"damage": "1d8+3 Peircing",
+					"properties": ""
+				},
+				{
+					"key": 3,
+					"name": "Unarmed Strike",
+					"range": "+5",
+					"toHit": "+4",
+					"damage": "3 Bludgeoning",
+					"properties": ""
+				}
 			],
 			"spells": [
 				{
