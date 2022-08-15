@@ -41,7 +41,7 @@
 				{ "key": 14, "name": "Persuasion", "mod": "+5", "prof": false },
 				{ "key": 15, "name": "Religion", "mod": "+1", "prof": false },
 				{ "key": 16, "name": "Sleight of Hand", "mod": "+7", "prof": true },
-				{ "key": 17, "name": "Stealth", "mod": "+10", "prof": false },
+				{ "key": 17, "name": "Stealth", "mod": "+10", "prof": true },
 				{ "key": 18, "name": "Survival", "mod": "+3", "prof": false },
 				{ "key": 19, "name": "Passive Wisdom (Perception)", "mod": "15" }
 			],
@@ -88,27 +88,39 @@
 			"weapons": [
 				{
 					"key": 1,
-					"name": "Long Bow",
-					"range": "+5",
-					"toHit": "+5",
-					"damage": "1d8+3 Peircing",
-					"properties": ""
+					"name": "Crossbow, Light",
+					"range": "80 (320) ft.",
+					"toHit": "+7",
+					"damage": "1d8+4 Peircing",
+					"properties": "Simple, Ammunition, Loading, Range, Two-Handed",
+					"notes": ""
 				},
 				{
 					"key": 2,
-					"name": "Short Sword",
-					"range": "+5",
-					"toHit": "+5",
-					"damage": "1d8+3 Peircing",
-					"properties": ""
+					"name": "Dagger",
+					"range": "20 (60) ft.",
+					"toHit": "+7",
+					"damage": "1d4+4 Peircing",
+					"properties": "Simple, Finesse, Light, Thrown",
+					"notes": ""
 				},
 				{
 					"key": 3,
+					"name": "Scimitat",
+					"range": "5 ft. Reach",
+					"toHit": "+7",
+					"damage": "1d6+4 Slashing",
+					"properties": "Martial, Finesse, Light",
+					"notes": "Custom"
+				},
+				{
+					"key": 4,
 					"name": "Unarmed Strike",
-					"range": "+5",
-					"toHit": "+4",
-					"damage": "3 Bludgeoning",
-					"properties": ""
+					"range": "5 ft. Reach",
+					"toHit": "+3",
+					"damage": "1 Bludgeoning",
+					"properties": "",
+					"notes": ""
 				}
 			],
 			"spells": [
@@ -213,21 +225,82 @@
 					"toHit": "+4",
 					"damage": "3 Bludgeoning",
 					"properties": ""
+				},
+				{
+					"key": 0,
+					"name": "",
+					"range": "",
+					"toHit": "",
+					"damage": "",
+					"properties": "",
+					"notes": ""
 				}
 			],
 			"spells": [
 				{
-					"key": 1,
-					"name": "Frostbite",
-					"level": "Cantrip",
-					"casting": "1 Action",
-					"range": "60 ft.",
-					"components": "Verbal (V), Somatic (S)",
-					"duration": "Instantaneous",
-					"school": "Evocation",
-					"attack": "ON Save",
-					"damageType": "Cold",
-					"description": "You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn."
+					"Cantrips":[
+						{
+							"key": 1,
+							"name": "Mending",
+							"casting": "1 minute",
+							"range": "Touch",
+							"components": "Verbal (V), Somatic (S), Material (M) - two lodestones",
+							"duration": "Instantaneous",
+							"school": "Transmutaion",
+							"attack": "None",
+							"damageType": "Utility",
+							"description": "This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\nThis spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.",
+							"atHigherLevel": null
+						},
+						{
+							"key": 2,
+							"name": "Message",
+							"casting": "1 Action",
+							"range": "120 ft.",
+							"components": "Verbal (V), Somatic (S), Material (M) - a short piece of copper wire",
+							"duration": "1 Round",
+							"school": "Transmutaion",
+							"attack": "None",
+							"damageType": "Communication (...)",
+							"description": "You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\nYou can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings.",
+							"atHigherLevel": null
+						},
+						{
+							"key": 3,
+							"name": "Vicious Mockery",
+							"casting": "1 Action",
+							"range": "60 ft.",
+							"components": "Verbal (V)",
+							"duration": "Instantaneous",
+							"school": "Enchantment",
+							"attack": "WIS Save",
+							"damageType": "2d4 Psychic",
+							"description": "You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.",
+							"atHigherLevel": "This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4)."
+						}
+					],
+					"1st Level":[
+						{
+							"key": 0,
+							"name": "",
+							"casting": "",
+							"range": "",
+							"components": "Verbal (V), Somatic (S), Material (M)",
+							"duration": "",
+							"school": "",
+							"attack": "",
+							"damageType": "",
+							"description": ""
+						}
+					],
+					"2nd Level":[],
+					"3rd Level":[],
+					"4th Level":[],
+					"5th Level":[],
+					"6th Level":[],
+					"7th Level":[],
+					"8th Level":[],
+					"9th Level":[]
 				}
 			]
 		},
